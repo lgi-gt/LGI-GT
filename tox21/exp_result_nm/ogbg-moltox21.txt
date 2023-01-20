@@ -1,0 +1,352 @@
+
+
+
+===============================================
+2023-01-12 10:38:28
+
+main_nm.py --n 1 --m 2 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 1
+m: 2
+
+
+Run time: 3958.675436119549
+Best Epoch: 68
+Val: 81.36
+Test Score: 77.40
+
+
+
+===============================================
+2023-01-12 10:39:46
+
+main_nm.py --n 1 --m 1 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 1
+m: 1
+
+
+Run time: 4150.520558445714
+Best Epoch: 124
+Val: 81.61
+Test Score: 77.85
+
+
+
+===============================================
+2023-01-12 13:57:44
+
+main_nm.py --n 2 --m 1 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 2
+m: 1
+
+
+Run time: 3265.3795987414196
+Best Epoch: 60
+Val: 81.37
+Test Score: 78.32
+
+
+
+===============================================
+2023-01-12 14:24:14
+
+main_nm.py --n 4 --m 1 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 4
+m: 1
+
+
+Run time: 2471.162616353482
+Best Epoch: 102
+Val: 80.78
+Test Score: 77.19
+
+
+
+===============================================
+2023-01-12 14:24:33
+
+main_nm.py --n 4 --m 2 --device 2
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 4
+m: 2
+
+
+Run time: 3083.1483912253752
+Best Epoch: 108
+Val: 81.52
+Test Score: 77.78
+
+
+
+===============================================
+2023-01-12 14:19:44
+
+main_nm.py --n 1 --m 4 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 1
+m: 4
+
+
+Run time: 4141.433080319315
+Best Epoch: 105
+Val: 80.76
+Test Score: 75.18
+
+
+
+===============================================
+2023-01-12 14:20:45
+
+main_nm.py --n 2 --m 4 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 2
+m: 4
+
+
+Run time: 4217.05664344877
+Best Epoch: 42
+Val: 80.35
+Test Score: 76.51
+
+
+
+===============================================
+2023-01-12 14:21:19
+
+main_nm.py --n 2 --m 2 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 2
+m: 2
+
+
+Run time: 4239.58963669464
+Best Epoch: 58
+Val: 80.60
+Test Score: 76.85
+
+
+
+===============================================
+2023-01-12 14:24:44
+
+main_nm.py --n 4 --m 4 --device 2
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 8
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2023
+save_state: False
+n: 4
+m: 4
+
+
+Run time: 4318.254498384893
+Best Epoch: 96
+Val: 80.10
+Test Score: 77.43
+

@@ -1,0 +1,70 @@
+
+
+----------------------------------------
+2022-11-14 07:45:28
+
+main.py --device 1 --num_rw_steps 7 --dim-pe 16 --tlayer-dropout 0.3 --attn-dropout 0.3 --scheduler none --seeds 2022
+
+
+baseline: SAT
+dataset: PATTERN
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 7 
+num_classes: 2
+epochs: 100
+scheduler: none
+warmup: 5
+batch_size: 32
+lr: 0.0003
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 16
+tlayer_dim: 64
+gconv_dropout: 0
+attn_dropout: 0.3
+tlayer_dropout: 0.3
+classifier_head_dropout: 0.0
+num_layers: 6
+num_heads: 4
+skip_connection: short
+seeds: 2022
+device: 1
+save_state: False
+
+
+Run time: 3249.6560572629096
+Best Epoch: 90 
+
+
+
+{
+    node_encoder(an nn.Linear(in_dim, gconv_dim - dim_pe)), 
+    RW_StructuralEncoder(dim_pe, num_rw_steps, 
+                                    model_type='linear', 
+                                    n_layers=2, 
+                                    norm_type='bn'), 
+    edge_encoder = nn.Embedding(1, gconv_dim), 
+
+    out = x, 
+
+    {
+        GCNConv_SBMs w edge_attr, 
+        x = x + out, 
+        BN, 
+        out = x, 
+        Transformer Encoder Layer (BN), 
+        x = x + out, 
+        out = x 
+    } x 6, 
+    nn.Linear(tlayer_dim, out_dim) as the out Layer instead of an MLP 
+}
+
+
+test 0.8693 ± 0.0004 
+val  0.8682 ± 0.0002

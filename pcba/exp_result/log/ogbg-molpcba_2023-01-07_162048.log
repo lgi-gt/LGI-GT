@@ -1,0 +1,51 @@
+
+
+===============================================
+2023-01-07 16:20:48
+
+main_gps_parallel_gat.py --device 0
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: mean
+seeds: 0
+device: 0
+save_state: False
+
+
+
+| Epoch    0 | Train e:  0.0257, T l:  0.2427 | Val e:  0.0304 | Test e:  0.0324 
+| Epoch    1 | Train e:  0.0384, T l:  0.0603 | Val e:  0.0417 | Test e:  0.0435 
+| Epoch    2 | Train e:  0.0746, T l:  0.0511 | Val e:  0.0777 | Test e:  0.0784 
+| Epoch    3 | Train e:  0.1141, T l:  0.0469 | Val e:  0.1131 | Test e:  0.1112 
+| Epoch    4 | Train e:  0.1377, T l:  0.0444 | Val e:  0.1259 | Test e:  0.1259 
+| Epoch    5 | Train e:  0.1587, T l:  0.0427 | Val e:  0.1423 | Test e:  0.1398 
+| Epoch    6 | Train e:  0.1765, T l:  0.0414 | Val e:  0.1522 | Test e:  0.1503 
+| Epoch    7 | Train e:  0.1957, T l:  0.0405 | Val e:  0.1642 | Test e:  0.1613 
+| Epoch    8 | Train e:  0.2241, T l:  0.0396 | Val e:  0.1818 | Test e:  0.1754 
+| Epoch    9 | Train e:  0.2284, T l:  0.0390 | Val e:  0.1852 | Test e:  0.1765 
+| Epoch   10 | Train e:  0.2428, T l:  0.0382 | Val e:  0.1915 | Test e:  0.1871 
+| Epoch   11 | Train e:  0.2661, T l:  0.0375 | Val e:  0.1913 | Test e:  0.1874 
+| Epoch   12 | Train e:  0.2749, T l:  0.0368 | Val e:  0.1988 | Test e:  0.1942 

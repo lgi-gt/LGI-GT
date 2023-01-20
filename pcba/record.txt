@@ -1,0 +1,59 @@
+
+===============================================
+2022-12-12 01:46:22
+
+main.py --seeds 886 --device 2
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 886
+device: 2
+save_state: False
+
+
+Run time: 18992.39613460563
+Best Epoch: 98
+Val: 0.3151
+Test Score: 0.3020
+
+def message(self, x_i, x_j, edge_attr, edge_index_i, size_i: Optional[int]): 
+    H, C = self.num_heads, self.hidden_dim // self.num_heads 
+
+    x_dst = self.linear_dst(x_i).view(-1, H, C) 
+    m_src = self.linear_src_edge(torch.cat([x_j, edge_attr], dim=-1)).view(-1, H, C) 
+
+    alpha = (x_dst * m_src).sum(dim=-1) / math.sqrt(C) 
+
+    alpha = F.leaky_relu(alpha, 0.2) 
+    alpha = softmax(alpha, edge_index_i, num_nodes=size_i) 
+    alpha = F.dropout(alpha, p=self.local_attn_dropout_ratio, training=self.training) 
+
+    # return (x_j + edge_attr) * alpha.unsqueeze(-1) 
+    return m_src * alpha.unsqueeze(-1) 
+
+
+Test 0.3040 ± 0.0029 
+Val  0.3134 ± 0.0026 
+

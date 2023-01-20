@@ -1,0 +1,53 @@
+
+
+===============================================
+2023-01-07 19:03:14
+
+main_gps_parallel_eela.py --device 2
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: mean
+seeds: 0
+device: 2
+save_state: False
+
+
+
+| Epoch    0 | Train e:  0.0329, T l:  0.6411 | Val e:  0.0348 | Test e:  0.0356 
+| Epoch    1 | Train e:  0.0338, T l:  0.4530 | Val e:  0.0353 | Test e:  0.0363 
+| Epoch    2 | Train e:  0.0446, T l:  0.1552 | Val e:  0.0452 | Test e:  0.0452 
+| Epoch    3 | Train e:  0.0668, T l:  0.0610 | Val e:  0.0666 | Test e:  0.0664 
+| Epoch    4 | Train e:  0.0824, T l:  0.0494 | Val e:  0.0841 | Test e:  0.0805 
+| Epoch    5 | Train e:  0.0844, T l:  0.0472 | Val e:  0.0837 | Test e:  0.0826 
+| Epoch    6 | Train e:  0.0982, T l:  0.0462 | Val e:  0.0921 | Test e:  0.0944 
+| Epoch    7 | Train e:  0.1004, T l:  0.0455 | Val e:  0.0922 | Test e:  0.0918 
+| Epoch    8 | Train e:  0.1001, T l:  0.0450 | Val e:  0.0940 | Test e:  0.0987 
+| Epoch    9 | Train e:  0.1197, T l:  0.0446 | Val e:  0.1034 | Test e:  0.1062 
+| Epoch   10 | Train e:  0.1155, T l:  0.0441 | Val e:  0.0971 | Test e:  0.0974 
+| Epoch   11 | Train e:  0.1224, T l:  0.0435 | Val e:  0.1044 | Test e:  0.1041 
+| Epoch   12 | Train e:  0.1305, T l:  0.0430 | Val e:  0.1033 | Test e:  0.1048 
+| Epoch   13 | Train e:  0.1330, T l:  0.0425 | Val e:  0.1021 | Test e:  0.1014 

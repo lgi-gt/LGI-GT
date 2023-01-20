@@ -1,0 +1,129 @@
+
+
+===============================================
+2023-01-16 10:47:17
+
+main.py --readout mean --seeds 2023 --device 3
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: mean
+seeds: 2023
+device: 3
+save_state: False
+
+
+Run time: 18411.560451739468
+Best Epoch: 56
+Val: 0.2812
+Test Score: 0.2603
+
+
+
+===============================================
+2023-01-16 11:00:22
+
+main.py --readout add --seeds 2023 --device 3
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: add
+seeds: 2023
+device: 3
+save_state: False
+
+
+Run time: 18190.49443764612
+Best Epoch: 66
+Val: 0.2354
+Test Score: 0.2192
+
+
+
+===============================================
+2023-01-16 15:56:11
+
+main_old_cls.py --device 2
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 2023
+device: 2
+save_state: False
+
+
+Run time: 19182.07919437997
+Best Epoch: 92
+Val: 0.3040
+Test Score: 0.2924
+

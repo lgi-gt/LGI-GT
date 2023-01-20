@@ -1,0 +1,740 @@
+
+
+===============================================
+2022-08-23 01:03:31
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 23333 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 23333
+save_state: False
+
+
+Run time: 5829.7755725388415
+Best Epoch: 109
+Val: 80.91
+Test Score: 78.66
+
+
+
+===============================================
+2022-08-23 01:03:33
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 12138 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 12138
+save_state: False
+
+
+Run time: 5835.599384095985
+Best Epoch: 95
+Val: 81.99
+Test Score: 77.60
+
+
+
+===============================================
+2022-08-23 01:03:30
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 2333 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2333
+save_state: False
+
+
+Run time: 5846.877392370021
+Best Epoch: 133
+Val: 81.84
+Test Score: 78.58
+
+
+
+===============================================
+2022-08-23 01:03:36
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 666 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 666
+save_state: False
+
+
+Run time: 5866.0545973400585
+Best Epoch: 105
+Val: 81.66
+Test Score: 78.94
+
+
+
+===============================================
+2022-08-23 01:03:38
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 886 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 886
+save_state: False
+
+
+Run time: 5877.107826744905
+Best Epoch: 125
+Val: 81.72
+Test Score: 77.80
+
+
+
+===============================================
+2022-08-23 01:08:24
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 12138 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 12138
+save_state: False
+
+
+Run time: 6251.8968098410405
+Best Epoch: 87
+Val: 81.81
+Test Score: 77.88
+
+
+
+===============================================
+2022-08-23 01:08:26
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 666 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 666
+save_state: False
+
+
+Run time: 6256.030429592123
+Best Epoch: 110
+Val: 81.51
+Test Score: 78.74
+
+
+
+===============================================
+2022-08-23 01:08:22
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 23333 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 23333
+save_state: False
+
+
+Run time: 6273.882087787148
+Best Epoch: 111
+Val: 81.80
+Test Score: 78.57
+
+
+
+===============================================
+2022-08-23 01:08:20
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 2333 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2333
+save_state: False
+
+
+Run time: 6276.421834680019
+Best Epoch: 85
+Val: 81.70
+Test Score: 78.62
+
+
+
+===============================================
+2022-08-23 01:08:28
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 886 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 886
+save_state: False
+
+
+Run time: 6282.518783004023
+Best Epoch: 191
+Val: 81.53
+Test Score: 77.91
+
+
+
+===============================================
+2022-08-23 04:18:56
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 271828 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 271828
+save_state: False
+
+
+Run time: 5849.416675102897
+Best Epoch: 106
+Val: 81.56
+Test Score: 78.63
+
+
+
+===============================================
+2022-08-23 04:18:52
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 42 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 42
+save_state: False
+
+
+Run time: 5886.382578774821
+Best Epoch: 58
+Val: 81.59
+Test Score: 78.98
+
+
+
+===============================================
+2022-08-23 04:19:00
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 2022 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2022
+save_state: False
+
+
+Run time: 5885.44196447311
+Best Epoch: 74
+Val: 81.42
+Test Score: 78.04
+
+
+
+===============================================
+2022-08-23 04:18:58
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 2020 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2020
+save_state: False
+
+
+Run time: 5899.092260378879
+Best Epoch: 76
+Val: 81.68
+Test Score: 77.86
+
+
+
+===============================================
+2022-08-23 04:18:54
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 314159 --device 0
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 314159
+save_state: False
+
+
+Run time: 5906.642093891045
+Best Epoch: 145
+Val: 81.03
+Test Score: 77.91
+
+
+
+===============================================
+2022-08-23 04:19:06
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 271828 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 271828
+save_state: False
+
+
+Run time: 6298.0390885530505
+Best Epoch: 62
+Val: 81.17
+Test Score: 77.66
+
+
+
+===============================================
+2022-08-23 04:19:02
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 42 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 42
+save_state: False
+
+
+Run time: 6318.898591706995
+Best Epoch: 77
+Val: 81.41
+Test Score: 78.28
+
+
+
+===============================================
+2022-08-23 04:19:11
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 2022 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2022
+save_state: False
+
+
+Run time: 6309.825660247123
+Best Epoch: 100
+Val: 80.89
+Test Score: 77.87
+
+
+
+===============================================
+2022-08-23 04:19:09
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 2020 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 2020
+save_state: False
+
+
+Run time: 6320.628432216123
+Best Epoch: 121
+Val: 81.86
+Test Score: 79.00
+
+
+
+===============================================
+2022-08-23 04:19:04
+
+main_tox21.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-moltox21
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+patience: 25
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+seeds: 314159
+save_state: False
+
+
+Run time: 6336.183022884885
+Best Epoch: 91
+Val: 81.22
+Test Score: 77.17
+

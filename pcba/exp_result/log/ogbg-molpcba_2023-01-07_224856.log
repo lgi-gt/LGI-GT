@@ -1,0 +1,43 @@
+
+
+===============================================
+2023-01-07 22:48:56
+
+main_parallel_transformerconv.py --seeds 886 --device 2
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 886
+device: 2
+save_state: False
+
+
+
+| Epoch    0 | Train e:  0.0327, T l:  0.2356 | Val e:  0.0355 | Test e:  0.0356 
+| Epoch    1 | Train e:  0.0614, T l:  0.0594 | Val e:  0.0608 | Test e:  0.0631 
+| Epoch    2 | Train e:  0.0926, T l:  0.0497 | Val e:  0.0932 | Test e:  0.0917 
+| Epoch    3 | Train e:  0.1218, T l:  0.0465 | Val e:  0.1233 | Test e:  0.1219 
+| Epoch    4 | Train e:  0.1503, T l:  0.0446 | Val e:  0.1396 | Test e:  0.1397 

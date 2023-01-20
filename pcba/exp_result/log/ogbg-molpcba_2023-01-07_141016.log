@@ -1,0 +1,41 @@
+
+
+===============================================
+2023-01-07 14:10:16
+
+main_gps_parallel_eela.py --device 2
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: mean
+seeds: 0
+device: 2
+save_state: False
+
+
+
+| Epoch    0 | Train e:  0.0280, T l:  0.2397 | Val e:  0.0308 | Test e:  0.0318 
+| Epoch    1 | Train e:  0.0403, T l:  0.0602 | Val e:  0.0438 | Test e:  0.0456 

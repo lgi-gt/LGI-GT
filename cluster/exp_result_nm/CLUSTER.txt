@@ -1,0 +1,770 @@
+
+
+===============================================
+2023-01-12 00:26:13
+
+main_nm.py --n 4 --m 1 --device 1
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 1
+save_state: False
+n: 4
+m: 1
+
+
+Run time: 5259.14557199087
+Best Epoch: 95
+Val: 0.6869
+Test Score: 0.6850
+
+
+
+===============================================
+2023-01-12 00:26:36
+
+main_nm.py --n 4 --m 2 --device 1
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 1
+save_state: False
+n: 4
+m: 2
+
+
+Run time: 6385.5561948353425
+Best Epoch: 90
+Val: 0.7125
+Test Score: 0.7140
+
+
+
+===============================================
+2023-01-12 00:26:49
+
+main_nm.py --n 4 --m 4 --device 0
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 0
+save_state: False
+n: 4
+m: 4
+
+
+Run time: 6477.640295512043
+Best Epoch: 14
+Val: 0.5770
+Test Score: 0.5798
+
+
+
+
+===============================================
+2023-01-12 00:18:57
+
+main_nm.py --n 2 --m 1 --device 2
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 2
+save_state: False
+n: 2
+m: 1
+
+
+Run time: 5790.0648167980835
+Best Epoch: 89
+Val: 0.7689
+Test Score: 0.7688
+
+
+
+===============================================
+2023-01-12 00:18:18
+
+main_nm.py --n 1 --m 4 --device 2
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 2
+save_state: False
+n: 1
+m: 4
+
+
+Run time: 7091.6848301924765
+Best Epoch: 33
+Val: 0.7197
+Test Score: 0.7210
+
+
+
+===============================================
+2023-01-12 00:17:46
+
+main_nm.py --n 1 --m 2 --device 0
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 0
+save_state: False
+n: 1
+m: 2
+
+
+Run time: 8268.448220455088
+Best Epoch: 80
+Val: 0.7762
+Test Score: 0.7752
+
+
+
+===============================================
+2023-01-12 00:19:50
+
+main_nm.py --n 2 --m 4 --device 3
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 3
+save_state: False
+n: 2
+m: 4
+
+
+Run time: 8186.121470482089
+Best Epoch: 83
+Val: 0.7546
+Test Score: 0.7547
+
+
+
+===============================================
+2023-01-12 00:14:13
+
+main_nm.py --n 1 --m 1 --device 0
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 0
+save_state: False
+n: 1
+m: 1
+
+
+Run time: 8935.366452878341
+Best Epoch: 58
+Val: 0.7818
+Test Score: 0.7830
+
+
+
+===============================================
+2023-01-12 00:19:24
+
+main_nm.py --n 2 --m 2 --device 3
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 3
+save_state: False
+n: 2
+m: 2
+
+
+Run time: 8709.71020815242
+Best Epoch: 60
+Val: 0.7731
+Test Score: 0.7724
+
+
+
+===============================================
+2023-01-12 01:34:22
+
+main_nm.py --n 8 --m 4 --device 1
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 1
+save_state: False
+n: 8
+m: 4
+
+
+Run time: 8185.144628961571
+Best Epoch: 97
+Val: 0.3806
+Test Score: 0.3892
+
+
+
+===============================================
+2023-01-12 01:39:20
+
+main_nm.py --n 8 --m 8 --device 0
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 0
+save_state: False
+n: 8
+m: 8
+
+
+Run time: 9449.010453896597
+Best Epoch: 40
+Val: 0.3625
+Test Score: 0.3665
+
+
+
+===============================================
+2023-01-12 01:36:38
+
+main_nm.py --n 4 --m 8 --device 1
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 1
+save_state: False
+n: 4
+m: 8
+
+
+Run time: 10624.536525049247
+Best Epoch: 17
+Val: 0.4941
+Test Score: 0.5009
+
+
+
+
+===============================================
+2023-01-12 01:43:12
+
+main_nm.py --n 8 --m 1 --device 1
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 1
+save_state: False
+n: 8
+m: 1
+
+
+Run time: 6630.885533337481
+Best Epoch: 94
+Val: 0.3895
+Test Score: 0.3969
+
+
+
+===============================================
+2023-01-12 01:42:08
+
+main_nm.py --n 8 --m 2 --device 0
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 0
+save_state: False
+n: 8
+m: 2
+
+
+Run time: 7035.437612902373
+Best Epoch: 93
+Val: 0.3992
+Test Score: 0.4075
+
+
+
+===============================================
+2023-01-12 01:40:49
+
+main_nm.py --n 1 --m 8 --device 0
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 0
+save_state: False
+n: 1
+m: 8
+
+
+Run time: 9606.46912549343
+Best Epoch: 27
+Val: 0.5959
+Test Score: 0.6014
+
+
+
+===============================================
+2023-01-12 01:43:50
+
+main_nm.py --n 2 --m 8 --device 1
+
+None
+
+baseline: SAT
+dataset: CLUSTER
+use_val_loss: False
+use_cpu: False
+max_freqs: 16
+eigvec_norm: L2
+num_rw_steps: 6
+num_classes: 6
+epochs: 100
+scheduler: cosine
+warmup: 5
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 48
+dim_pe: 16
+tlayer_dim: 48
+gconv_dropout: 0
+attn_dropout: 0.5
+tlayer_dropout: 0.1
+classifier_head_dropout: 0.3
+num_layers: 16
+num_heads: 8
+skip_connection: short
+seeds: 2023
+device: 1
+save_state: False
+n: 2
+m: 8
+
+
+Run time: 9926.829566385597
+Best Epoch: 12
+Val: 0.6017
+Test Score: 0.6028
+

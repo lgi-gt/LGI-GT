@@ -1,0 +1,132 @@
+
+
+===============================================
+2023-01-13 02:37:08
+
+main_parallel.py --device 2
+
+scheme: Parallel
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 2023
+device: 2
+save_state: False
+
+
+Run time: 18939.442711086012
+Best Epoch: 39
+Val: 0.2587
+Test Score: 0.2523
+
+
+
+===============================================
+2023-01-13 02:35:09
+
+main.py --device 0
+
+scheme: LGI
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 2023
+device: 0
+save_state: False
+
+
+Run time: 19530.875948567875
+Best Epoch: 82
+Val: 0.3143
+Test Score: 0.2995
+
+
+
+===============================================
+2023-01-13 02:36:38
+
+main_gnnt.py --device 1
+
+scheme: GNNT
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 2023
+device: 1
+save_state: False
+
+
+Run time: 19623.20558697451
+Best Epoch: 86
+Val: 0.2817
+Test Score: 0.2631
+

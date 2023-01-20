@@ -1,0 +1,81 @@
+
+
+Test 0.0686 ± 0.0019 
+Val  0.0851 ± 0.0051 
+
+
+main.py --device 1 --seeds 271828
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 271828
+device: 1
+save_state: False
+
+
+Run time: 67471.34730715398
+Best Epoch: 1683
+Val: 0.0886
+Test Score: 0.0685
+
+
+{
+    x = x.squeeze(-1) 
+    x = self.node_encoder(x) 
+    rwse = self.se_encoder(rw) 
+    x = torch.cat((x, rwse), dim=1) 
+    out = x 
+    , 
+    {
+        GINConv(
+            self.mlp = nn.Sequential( 
+                nn.Linear(emb_dim, 2*emb_dim), 
+                nn.ReLU(), 
+
+                nn.Linear(2*emb_dim, emb_dim) 
+            ) 
+            self.edge_linear = nn.Linear(emb_dim, emb_dim)
+        ), 
+        x = out + x, 
+        BatchNorm1d, 
+        out = x, 
+        Transformer Encoder Layer, 
+        x = out + x, 
+        out = x 
+    } x 10, 
+    add graph pooling, 
+    self.lin2 = nn.Sequential( 
+        nn.Linear(tlayer_dim, 8 * tlayer_dim), 
+        nn.ReLU(), 
+        
+        nn.Linear(8 * tlayer_dim, 8 * tlayer_dim), 
+        nn.ReLU(), 
+
+        nn.Linear(8 * tlayer_dim, out_dim) 
+    ) 
+}
+

@@ -1,0 +1,860 @@
+
+
+===============================================
+2022-10-02 00:24:27
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 2 --seeds 42
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 42
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42126.73446206516
+Best Epoch: 16
+Val: 0.1770
+Test Score: 0.1943
+
+
+
+===============================================
+2022-10-02 00:25:04
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 3 --seeds 2333
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 2333
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42223.41951675201
+Best Epoch: 21
+Val: 0.1771
+Test Score: 0.1939
+
+
+
+===============================================
+2022-10-02 00:24:14
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 1 --seeds 2333
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 2333
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43898.204960867995
+Best Epoch: 21
+Val: 0.1790
+Test Score: 0.1936
+
+
+
+===============================================
+2022-10-02 00:23:51
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 0 --seeds 42
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 42
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43995.080251265084
+Best Epoch: 26
+Val: 0.1762
+Test Score: 0.1956
+
+
+
+===============================================
+2022-10-02 12:09:00
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 3 --seeds 23333
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 23333
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42008.589922012994
+Best Epoch: 23
+Val: 0.1770
+Test Score: 0.1938
+
+
+
+===============================================
+2022-10-02 12:06:47
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 2 --seeds 314159
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 314159
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42199.14129822701
+Best Epoch: 28
+Val: 0.1769
+Test Score: 0.1946
+
+
+
+===============================================
+2022-10-02 12:36:04
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 1 --seeds 23333
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 23333
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43818.88034510589
+Best Epoch: 24
+Val: 0.1786
+Test Score: 0.1950
+
+
+
+===============================================
+2022-10-02 12:37:19
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 0 --seeds 314159
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 314159
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43941.44190781913
+Best Epoch: 24
+Val: 0.1764
+Test Score: 0.1930
+
+
+
+===============================================
+2022-10-02 23:49:21
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 3 --seeds 12138
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 12138
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42024.24392788019
+Best Epoch: 26
+Val: 0.1802
+Test Score: 0.1962
+
+
+
+===============================================
+2022-10-02 23:50:18
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 2 --seeds 271828
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 271828
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42020.382895499
+Best Epoch: 29
+Val: 0.1777
+Test Score: 0.1918
+
+
+
+===============================================
+2022-10-03 00:46:36
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 1 --seeds 12138
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 12138
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43922.30836624093
+Best Epoch: 27
+Val: 0.1820
+Test Score: 0.1992
+
+
+
+===============================================
+2022-10-03 00:49:53
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 0 --seeds 271828
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 271828
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43874.173105738126
+Best Epoch: 25
+Val: 0.1760
+Test Score: 0.1922
+
+
+
+===============================================
+2022-10-03 11:29:57
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 3 --seeds 666
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 666
+save_state: False
+clipping_mode: tail
+
+
+Run time: 41917.669364408124
+Best Epoch: 25
+Val: 0.1769
+Test Score: 0.1930
+
+
+
+===============================================
+2022-10-03 11:30:51
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 2 --seeds 2020
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 2020
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42393.82651356398
+Best Epoch: 27
+Val: 0.1790
+Test Score: 0.1946
+
+
+
+===============================================
+2022-10-03 12:58:50
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 1 --seeds 666
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 666
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43998.51348817302
+Best Epoch: 29
+Val: 0.1772
+Test Score: 0.1926
+
+
+
+===============================================
+2022-10-03 13:01:20
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 0 --seeds 2020
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 2020
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43981.39118613303
+Best Epoch: 22
+Val: 0.1786
+Test Score: 0.1943
+
+
+
+===============================================
+2022-10-03 23:08:47
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 3 --seeds 886
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 886
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42179.757833782816
+Best Epoch: 23
+Val: 0.1799
+Test Score: 0.1977
+
+
+
+===============================================
+2022-10-03 23:17:37
+
+main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail --device 2 --seeds 2022
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 2022
+save_state: False
+clipping_mode: tail
+
+
+Run time: 42069.8450540239
+Best Epoch: 28
+Val: 0.1767
+Test Score: 0.1935
+
+
+
+===============================================
+2022-10-04 01:12:21
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 1 --seeds 886
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 886
+save_state: False
+segment_pooling: sum
+
+
+Run time: 43694.69204454613
+Best Epoch: 23
+Val: 0.1797
+Test Score: 0.1987
+
+
+
+===============================================
+2022-10-04 01:14:34
+
+main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum --device 0 --seeds 2022
+
+
+baseline: GraphTrans
+dataset: ogbg-code2
+max_seq_len: 5
+num_vocab: 5000
+max_input_len: 1000
+use_val_loss: False
+use_cpu: False
+epochs: 30
+scheduler: linear
+warmup: 5
+batch_size: 32
+lr: 0.0002
+weight_decay: 1e-06
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+attn_dropout: 0.0
+tlayer_dropout: 0.4
+num_layers: 4
+num_heads: 4
+skip_connection: none
+readout: cls
+seeds: 2022
+save_state: False
+segment_pooling: sum
+
+
+Run time: 44087.11043722718
+Best Epoch: 28
+Val: 0.1770
+Test Score: 0.1940
+

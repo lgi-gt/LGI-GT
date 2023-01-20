@@ -1,0 +1,132 @@
+
+
+===============================================
+2022-12-19 12:18:48
+
+main_gnnt.py --warmup 10 --scheduler linear --device 0
+
+None
+
+dataset: NCI1
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 128
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+tlayer_dropout: 0.1
+seeds: 12344
+save_state: False
+
+
+
+| Epoch    0 | Train e:  50.09, T l:  0.7216 | Val e:  49.15 | Test e:  50.61 
+| Epoch    1 | Train e:  55.44, T l:  0.6503 | Val e:  56.20 | Test e:  57.18 
+| Epoch    2 | Train e:  63.96, T l:  0.5968 | Val e:  67.88 | Test e:  65.45 
+| Epoch    3 | Train e:  74.36, T l:  0.5532 | Val e:  74.45 | Test e:  72.99 
+| Epoch    4 | Train e:  74.57, T l:  0.5209 | Val e:  74.45 | Test e:  70.32 
+| Epoch    5 | Train e:  79.08, T l:  0.5010 | Val e:  77.13 | Test e:  74.70 
+| Epoch    6 | Train e:  75.24, T l:  0.4787 | Val e:  72.02 | Test e:  73.24 
+| Epoch    7 | Train e:  79.93, T l:  0.4500 | Val e:  75.18 | Test e:  76.89 
+| Epoch    8 | Train e:  76.98, T l:  0.4435 | Val e:  75.67 | Test e:  76.16 
+| Epoch    9 | Train e:  75.43, T l:  0.4194 | Val e:  77.37 | Test e:  70.80 
+| Epoch   10 | Train e:  77.22, T l:  0.4041 | Val e:  73.24 | Test e:  71.78 
+| Epoch   11 | Train e:  79.74, T l:  0.4248 | Val e:  74.45 | Test e:  75.18 
+| Epoch   12 | Train e:  80.84, T l:  0.3727 | Val e:  75.18 | Test e:  75.91 
+| Epoch   13 | Train e:  84.73, T l:  0.3588 | Val e:  75.43 | Test e:  75.18 
+| Epoch   14 | Train e:  86.19, T l:  0.3328 | Val e:  78.83 | Test e:  80.05 
+| Epoch   15 | Train e:  77.98, T l:  0.3333 | Val e:  76.16 | Test e:  73.72 
+| Epoch   16 | Train e:  87.53, T l:  0.3309 | Val e:  79.81 | Test e:  80.54 
+| Epoch   17 | Train e:  82.18, T l:  0.3353 | Val e:  78.35 | Test e:  76.89 
+| Epoch   18 | Train e:  87.29, T l:  0.3088 | Val e:  77.86 | Test e:  75.67 
+| Epoch   19 | Train e:  81.96, T l:  0.2931 | Val e:  76.89 | Test e:  77.13 
+| Epoch   20 | Train e:  85.98, T l:  0.2820 | Val e:  79.08 | Test e:  77.86 
+| Epoch   21 | Train e:  87.90, T l:  0.2871 | Val e:  80.54 | Test e:  77.62 
+| Epoch   22 | Train e:  88.96, T l:  0.2683 | Val e:  79.56 | Test e:  76.16 
+| Epoch   23 | Train e:  89.99, T l:  0.2512 | Val e:  76.89 | Test e:  75.43 
+| Epoch   24 | Train e:  90.33, T l:  0.2629 | Val e:  80.78 | Test e:  82.00 
+| Epoch   25 | Train e:  84.82, T l:  0.2530 | Val e:  76.40 | Test e:  73.48 
+| Epoch   26 | Train e:  89.11, T l:  0.2522 | Val e:  78.35 | Test e:  76.40 
+| Epoch   27 | Train e:  82.03, T l:  0.2381 | Val e:  72.51 | Test e:  71.05 
+| Epoch   28 | Train e:  90.39, T l:  0.2244 | Val e:  80.05 | Test e:  79.32 
+| Epoch   29 | Train e:  90.09, T l:  0.2126 | Val e:  80.54 | Test e:  79.32 
+| Epoch   30 | Train e:  89.45, T l:  0.2298 | Val e:  75.18 | Test e:  77.62 
+| Epoch   31 | Train e:  91.61, T l:  0.2326 | Val e:  76.40 | Test e:  77.62 
+| Epoch   32 | Train e:  92.00, T l:  0.1980 | Val e:  78.10 | Test e:  79.08 
+| Epoch   33 | Train e:  82.24, T l:  0.1778 | Val e:  73.97 | Test e:  72.75 
+| Epoch   34 | Train e:  92.79, T l:  0.1786 | Val e:  79.81 | Test e:  79.32 
+| Epoch   35 | Train e:  91.30, T l:  0.1878 | Val e:  79.56 | Test e:  77.13 
+| Epoch   36 | Train e:  90.72, T l:  0.1861 | Val e:  78.59 | Test e:  77.13 
+| Epoch   37 | Train e:  93.22, T l:  0.1715 | Val e:  80.29 | Test e:  80.05 
+| Epoch   38 | Train e:  87.14, T l:  0.1855 | Val e:  77.86 | Test e:  76.40 
+| Epoch   39 | Train e:  92.46, T l:  0.1831 | Val e:  80.29 | Test e:  77.62 
+| Epoch   40 | Train e:  95.23, T l:  0.1678 | Val e:  81.75 | Test e:  82.24 
+| Epoch   41 | Train e:  94.22, T l:  0.1507 | Val e:  81.75 | Test e:  80.78 
+| Epoch   42 | Train e:  94.92, T l:  0.1537 | Val e:  81.02 | Test e:  79.81 
+| Epoch   43 | Train e:  93.86, T l:  0.1299 | Val e:  81.02 | Test e:  80.54 
+| Epoch   44 | Train e:  93.95, T l:  0.1321 | Val e:  80.78 | Test e:  80.05 
+| Epoch   45 | Train e:  93.00, T l:  0.1433 | Val e:  80.05 | Test e:  79.56 
+| Epoch   46 | Train e:  89.42, T l:  0.1371 | Val e:  78.83 | Test e:  77.13 
+| Epoch   47 | Train e:  95.59, T l:  0.1509 | Val e:  80.54 | Test e:  79.56 
+| Epoch   48 | Train e:  96.17, T l:  0.1284 | Val e:  80.05 | Test e:  79.56 
+| Epoch   49 | Train e:  94.98, T l:  0.1191 | Val e:  79.56 | Test e:  81.02 
+| Epoch   50 | Train e:  96.05, T l:  0.1182 | Val e:  82.48 | Test e:  79.81 
+| Epoch   51 | Train e:  91.85, T l:  0.1270 | Val e:  77.62 | Test e:  77.62 
+| Epoch   52 | Train e:  95.16, T l:  0.1150 | Val e:  77.13 | Test e:  78.83 
+| Epoch   53 | Train e:  96.59, T l:  0.1385 | Val e:  79.81 | Test e:  79.56 
+| Epoch   54 | Train e:  97.32, T l:  0.1100 | Val e:  81.51 | Test e:  78.59 
+| Epoch   55 | Train e:  97.66, T l:  0.1060 | Val e:  82.00 | Test e:  80.54 
+| Epoch   56 | Train e:  98.05, T l:  0.0917 | Val e:  80.78 | Test e:  79.56 
+| Epoch   57 | Train e:  97.51, T l:  0.0859 | Val e:  80.05 | Test e:  80.29 
+| Epoch   58 | Train e:  98.02, T l:  0.0772 | Val e:  81.27 | Test e:  79.32 
+| Epoch   59 | Train e:  98.11, T l:  0.0751 | Val e:  81.02 | Test e:  80.54 
+| Epoch   60 | Train e:  98.42, T l:  0.0796 | Val e:  80.05 | Test e:  81.51 
+| Epoch   61 | Train e:  98.63, T l:  0.0754 | Val e:  80.54 | Test e:  80.29 
+| Epoch   62 | Train e:  96.17, T l:  0.0937 | Val e:  78.83 | Test e:  80.29 
+| Epoch   63 | Train e:  97.63, T l:  0.0799 | Val e:  81.02 | Test e:  82.00 
+| Epoch   64 | Train e:  95.86, T l:  0.0747 | Val e:  79.32 | Test e:  78.59 
+| Epoch   65 | Train e:  97.90, T l:  0.0635 | Val e:  81.02 | Test e:  79.32 
+| Epoch   66 | Train e:  97.81, T l:  0.0652 | Val e:  81.51 | Test e:  77.86 
+| Epoch   67 | Train e:  96.99, T l:  0.0743 | Val e:  79.81 | Test e:  79.81 
+| Epoch   68 | Train e:  98.14, T l:  0.0695 | Val e:  81.51 | Test e:  81.02 
+| Epoch   69 | Train e:  98.18, T l:  0.0764 | Val e:  81.51 | Test e:  80.54 
+| Epoch   70 | Train e:  98.91, T l:  0.0553 | Val e:  81.75 | Test e:  79.08 
+| Epoch   71 | Train e:  99.12, T l:  0.0598 | Val e:  82.48 | Test e:  78.59 
+| Epoch   72 | Train e:  99.06, T l:  0.0577 | Val e:  83.21 | Test e:  80.78 
+| Epoch   73 | Train e:  99.03, T l:  0.0512 | Val e:  80.78 | Test e:  79.81 
+| Epoch   74 | Train e:  99.21, T l:  0.0477 | Val e:  81.27 | Test e:  80.54 
+| Epoch   75 | Train e:  99.03, T l:  0.0511 | Val e:  81.27 | Test e:  81.51 
+| Epoch   76 | Train e:  99.12, T l:  0.0523 | Val e:  82.24 | Test e:  79.81 
+| Epoch   77 | Train e:  99.21, T l:  0.0552 | Val e:  82.00 | Test e:  79.81 
+| Epoch   78 | Train e:  99.24, T l:  0.0521 | Val e:  81.02 | Test e:  81.27 
+| Epoch   79 | Train e:  99.15, T l:  0.0531 | Val e:  81.02 | Test e:  78.83 
+| Epoch   80 | Train e:  99.33, T l:  0.0468 | Val e:  81.02 | Test e:  81.27 
+| Epoch   81 | Train e:  99.33, T l:  0.0447 | Val e:  82.00 | Test e:  81.02 
+| Epoch   82 | Train e:  99.36, T l:  0.0375 | Val e:  82.24 | Test e:  81.02 
+| Epoch   83 | Train e:  99.33, T l:  0.0394 | Val e:  81.75 | Test e:  81.27 
+| Epoch   84 | Train e:  99.42, T l:  0.0412 | Val e:  81.51 | Test e:  82.24 
+| Epoch   85 | Train e:  99.54, T l:  0.0362 | Val e:  80.78 | Test e:  80.78 
+| Epoch   86 | Train e:  99.51, T l:  0.0449 | Val e:  81.02 | Test e:  80.05 
+| Epoch   87 | Train e:  99.57, T l:  0.0414 | Val e:  80.78 | Test e:  81.75 
+| Epoch   88 | Train e:  99.36, T l:  0.0343 | Val e:  81.27 | Test e:  81.75 
+| Epoch   89 | Train e:  99.57, T l:  0.0365 | Val e:  81.51 | Test e:  80.78 
+| Epoch   90 | Train e:  99.51, T l:  0.0365 | Val e:  80.05 | Test e:  81.02 
+| Epoch   91 | Train e:  99.57, T l:  0.0285 | Val e:  81.75 | Test e:  80.78 
+| Epoch   92 | Train e:  99.64, T l:  0.0307 | Val e:  82.48 | Test e:  81.51 
+| Epoch   93 | Train e:  99.67, T l:  0.0374 | Val e:  82.73 | Test e:  81.02 
+| Epoch   94 | Train e:  99.64, T l:  0.0293 | Val e:  82.24 | Test e:  82.24 
+| Epoch   95 | Train e:  99.70, T l:  0.0285 | Val e:  81.51 | Test e:  81.75 
+| Epoch   96 | Train e:  99.67, T l:  0.0325 | Val e:  82.24 | Test e:  81.75 
+| Epoch   97 | Train e:  99.70, T l:  0.0328 | Val e:  82.00 | Test e:  81.75 
+| Epoch   98 | Train e:  99.64, T l:  0.0291 | Val e:  82.24 | Test e:  80.29 
+| Epoch   99 | Train e:  99.70, T l:  0.0326 | Val e:  82.48 | Test e:  81.51 

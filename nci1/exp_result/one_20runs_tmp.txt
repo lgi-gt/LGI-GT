@@ -1,0 +1,39 @@
+Last T e:  96.41, T l:  0.1117 | Best Epoch:  96 | Best Val: 82.73 | Test Score: 85.16
+
+Last T e:  96.65, T l:  0.1173 | Best Epoch:  40 | Best Val: 85.64 | Test Score: 81.75
+
+Last T e:  97.26, T l:  0.1159 | Best Epoch:  56 | Best Val: 82.73 | Test Score: 83.21
+
+Last T e:  96.41, T l:  0.1166 | Best Epoch:  35 | Best Val: 82.73 | Test Score: 84.43
+
+Last T e:  95.89, T l:  0.1337 | Best Epoch:  58 | Best Val: 85.40 | Test Score: 82.97
+
+Last T e:  96.41, T l:  0.1191 | Best Epoch:  74 | Best Val: 80.29 | Test Score: 81.75
+
+Last T e:  95.77, T l:  0.1257 | Best Epoch:  47 | Best Val: 81.75 | Test Score: 80.29
+
+Last T e:  96.99, T l:  0.1220 | Best Epoch:  27 | Best Val: 82.48 | Test Score: 79.81
+
+Last T e:  96.20, T l:  0.1189 | Best Epoch:  85 | Best Val: 80.29 | Test Score: 82.00
+
+Last T e:  96.44, T l:  0.1167 | Best Epoch:  47 | Best Val: 84.18 | Test Score: 84.18
+
+Last T e:  95.99, T l:  0.1231 | Best Epoch:  41 | Best Val: 85.40 | Test Score: 80.54
+
+Last T e:  96.56, T l:  0.1230 | Best Epoch:  46 | Best Val: 82.00 | Test Score: 82.24
+
+Last T e:  96.20, T l:  0.1312 | Best Epoch:  58 | Best Val: 80.54 | Test Score: 84.18
+
+Last T e:  95.59, T l:  0.1366 | Best Epoch:  92 | Best Val: 81.75 | Test Score: 79.56
+
+Last T e:  95.99, T l:  0.1275 | Best Epoch:  87 | Best Val: 87.10 | Test Score: 82.24
+
+Last T e:  96.26, T l:  0.1171 | Best Epoch:  79 | Best Val: 81.75 | Test Score: 82.48
+
+Last T e:  97.26, T l:  0.1166 | Best Epoch:  60 | Best Val: 85.64 | Test Score: 84.18
+
+Last T e:  96.23, T l:  0.1290 | Best Epoch:  82 | Best Val: 82.24 | Test Score: 82.97
+
+Last T e:  96.35, T l:  0.1213 | Best Epoch:  80 | Best Val: 85.16 | Test Score: 78.83
+
+Last T e:  96.41, T l:  0.1148 | Best Epoch:  59 | Best Val: 84.91 | Test Score: 83.70

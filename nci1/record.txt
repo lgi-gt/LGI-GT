@@ -1,0 +1,28 @@
+
+
+------------------------------------------------
+main.py --warmup 10 --scheduler linear --device 1 
+
+{
+    gconv + bn + relu + dropout(0.)
+    within_linear + within_bn + relu 
+    gconv + bn + relu + dropout(0.)
+    middle_linear + pre_ln + relu + dropout(0.)
+    tlayer, ln=True, FFN hidden_dim = 2 * hidden_dim 
+} x 3 layers 
+
+clustering: True
+tlayer_dropout: 0.1
+
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 128
+lr: 0.0001
+weight_decay: 0.0001
+
+
+Test 82.1780 ± 1.9024
+Val  83.3810 ± 1.4051
+
+

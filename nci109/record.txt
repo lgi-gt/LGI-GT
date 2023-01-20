@@ -1,0 +1,44 @@
+
+
+
+python main_nci109.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --info "4 gconv + 2 tlayer for one layer x 2; really short skip connection after every module, after bn, before relu" --device 1 --batch-size 64
+
+{
+    {
+        ginconv 
+        + bn 
+        + short skip connection (add last ginconv + bn's 'out' to update out (out = out + x), 
+                                then replace x = out) 
+        + relu
+        + dropout(0) 
+    } x 4, 
+    {
+        tlayer, ln=True, FFN hidden_dim = 2 * hidden_dim 
+        + short skip connection (add last 'out' to update out (out = out + x), 
+                                ginconv + bn's out for the first tlayer, 
+                                first tlayer's out for the second tlayer; 
+                                replace x = out)
+    } x 2
+} x 2 
+mean readout 
+linear output layer 
+
+gconv_dim == tlayer_dim == hidden_dim == 256
+num_heads: 8 
+clustering: True
+masked_attention: False 
+gconv_dropout: 0
+tlayer_dropout: 0
+
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+
+
+Test 83.3570 ± 1.8869
+Val  84.4920 ± 1.3173
+
+

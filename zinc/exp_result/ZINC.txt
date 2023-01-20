@@ -1,0 +1,430 @@
+
+
+
+===============================================
+2022-11-28 11:14:18
+
+main.py --device 1 --seeds 2020
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 2020
+device: 1
+save_state: False
+
+
+Run time: 67309.46070513083
+Best Epoch: 1597
+Val: 0.0913
+Test Score: 0.0692
+
+
+
+===============================================
+2022-11-28 11:14:08
+
+main.py --device 1 --seeds 271828
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 271828
+device: 1
+save_state: False
+
+
+Run time: 67471.34730715398
+Best Epoch: 1683
+Val: 0.0886
+Test Score: 0.0685
+
+
+
+===============================================
+2022-11-28 11:13:53
+
+main.py --device 0 --seeds 314159
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 314159
+device: 0
+save_state: False
+
+
+Run time: 71731.86044034129
+Best Epoch: 1637
+Val: 0.0761
+Test Score: 0.0681
+
+
+
+===============================================
+2022-11-28 11:13:41
+
+main.py --device 0 --seeds 42
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 42
+device: 0
+save_state: False
+
+
+Run time: 72006.03365590004
+Best Epoch: 1607
+Val: 0.0908
+Test Score: 0.0654
+
+
+===============================================
+2022-11-28 11:12:43
+
+main.py --device 3 --seeds 886
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 886
+device: 3
+save_state: False
+
+
+Run time: 73650.1994703561
+Best Epoch: 1336
+Val: 0.0857
+Test Score: 0.0687
+
+
+
+===============================================
+2022-11-28 11:12:30
+
+main.py --device 3 --seeds 666
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 666
+device: 3
+save_state: False
+
+
+Run time: 75045.732527585
+Best Epoch: 1729
+Val: 0.0799
+Test Score: 0.0664
+
+
+===============================================
+2022-11-28 11:15:23
+
+main.py --device 0 --seeds 2022
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 2022
+device: 0
+save_state: False
+
+
+Run time: 67172.53703998378
+Best Epoch: 1740
+Val: 0.0814
+Test Score: 0.0678
+
+
+
+===============================================
+2022-11-28 11:15:56
+
+main.py --device 1 --seeds 12138
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 12138
+device: 1
+save_state: False
+
+
+Run time: 67456.20629682997
+Best Epoch: 1333
+Val: 0.0823
+Test Score: 0.0718
+
+
+
+===============================================
+2022-11-28 11:15:34
+
+main.py --device 0 --seeds 2333
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 2333
+device: 0
+save_state: False
+
+
+Run time: 67524.74850152386
+Best Epoch: 1727
+Val: 0.0848
+Test Score: 0.0689
+
+
+
+===============================================
+2022-11-28 11:15:47
+
+main.py --device 1 --seeds 23333
+
+
+baseline: SAT
+dataset: ZINC
+use_val_loss: False
+use_cpu: False
+num_rw_steps: 20
+epochs: 2000
+scheduler: linear
+warmup: 50
+batch_size: 32
+lr: 0.001
+weight_decay: 1e-05
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 64
+dim_pe: 28
+tlayer_dim: 64
+gconv_dropout: 0.0
+attn_dropout: 0.5
+tlayer_dropout: 0.0
+classifier_head_dropout: 0.0
+num_layers: 10
+num_heads: 4
+skip_connection: short
+readout: add
+seeds: 23333
+device: 1
+save_state: False
+
+
+Run time: 68369.69258832885
+Best Epoch: 1781
+Val: 0.0898
+Test Score: 0.0711
+
+

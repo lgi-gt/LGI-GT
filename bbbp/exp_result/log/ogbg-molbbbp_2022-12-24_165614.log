@@ -1,0 +1,231 @@
+
+
+===============================================
+2022-12-24 16:56:14
+
+main_parallel.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 12138 --device 5
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 12138
+save_state: False
+transformer_dropout: 0.1
+
+
+
+| Epoch    0 | Train e:  43.32, T l:  2.1537 | Val e:  36.38 , Val l: 1.1245 | Test e:  51.44 
+| Epoch    1 | Train e:  41.46, T l:  1.6932 | Val e:  37.68 , Val l: 0.8132 | Test e:  51.08 
+| Epoch    2 | Train e:  39.88, T l:  1.0057 | Val e:  41.17 , Val l: 0.7709 | Test e:  50.20 
+| Epoch    3 | Train e:  38.98, T l:  0.5739 | Val e:  44.75 , Val l: 1.1528 | Test e:  49.79 
+| Epoch    4 | Train e:  39.61, T l:  0.4883 | Val e:  47.59 , Val l: 1.3793 | Test e:  49.88 
+| Epoch    5 | Train e:  41.75, T l:  0.4768 | Val e:  50.91 , Val l: 1.4103 | Test e:  50.90 
+| Epoch    6 | Train e:  43.83, T l:  0.4767 | Val e:  54.42 , Val l: 1.3722 | Test e:  52.49 
+| Epoch    7 | Train e:  48.55, T l:  0.4694 | Val e:  59.01 , Val l: 1.3611 | Test e:  54.56 
+| Epoch    8 | Train e:  52.39, T l:  0.4589 | Val e:  63.40 , Val l: 1.3582 | Test e:  56.25 
+| Epoch    9 | Train e:  57.42, T l:  0.4645 | Val e:  68.30 , Val l: 1.3388 | Test e:  57.48 
+| Epoch   10 | Train e:  61.83, T l:  0.4586 | Val e:  72.53 , Val l: 1.3054 | Test e:  58.58 
+| Epoch   11 | Train e:  65.53, T l:  0.4533 | Val e:  76.19 , Val l: 1.3370 | Test e:  59.83 
+| Epoch   12 | Train e:  68.64, T l:  0.4418 | Val e:  78.34 , Val l: 1.2930 | Test e:  61.06 
+| Epoch   13 | Train e:  71.23, T l:  0.4293 | Val e:  79.41 , Val l: 1.2902 | Test e:  62.38 
+| Epoch   14 | Train e:  73.65, T l:  0.4257 | Val e:  79.92 , Val l: 1.2538 | Test e:  63.70 
+| Epoch   15 | Train e:  74.50, T l:  0.4198 | Val e:  79.88 , Val l: 1.2930 | Test e:  64.28 
+| Epoch   16 | Train e:  76.33, T l:  0.4175 | Val e:  79.82 , Val l: 1.2496 | Test e:  64.65 
+| Epoch   17 | Train e:  76.73, T l:  0.4097 | Val e:  80.41 , Val l: 1.3321 | Test e:  64.90 
+| Epoch   18 | Train e:  78.94, T l:  0.3895 | Val e:  80.45 , Val l: 1.2759 | Test e:  65.19 
+| Epoch   19 | Train e:  80.19, T l:  0.3903 | Val e:  80.88 , Val l: 1.1680 | Test e:  65.45 
+| Epoch   20 | Train e:  80.19, T l:  0.3771 | Val e:  81.33 , Val l: 1.1414 | Test e:  65.35 
+| Epoch   21 | Train e:  81.16, T l:  0.3824 | Val e:  81.61 , Val l: 1.1658 | Test e:  65.43 
+| Epoch   22 | Train e:  81.85, T l:  0.3760 | Val e:  82.08 , Val l: 1.4176 | Test e:  65.10 
+| Epoch   23 | Train e:  82.75, T l:  0.3721 | Val e:  82.28 , Val l: 1.2538 | Test e:  65.08 
+| Epoch   24 | Train e:  83.17, T l:  0.3665 | Val e:  82.60 , Val l: 1.2745 | Test e:  64.89 
+| Epoch   25 | Train e:  83.29, T l:  0.3617 | Val e:  83.44 , Val l: 1.1712 | Test e:  64.95 
+| Epoch   26 | Train e:  83.24, T l:  0.3488 | Val e:  83.04 , Val l: 0.9880 | Test e:  64.90 
+| Epoch   27 | Train e:  83.51, T l:  0.3462 | Val e:  83.62 , Val l: 0.9374 | Test e:  64.86 
+| Epoch   28 | Train e:  84.07, T l:  0.3353 | Val e:  84.67 , Val l: 1.2394 | Test e:  64.72 
+| Epoch   29 | Train e:  84.94, T l:  0.3401 | Val e:  84.88 , Val l: 1.0491 | Test e:  64.73 
+| Epoch   30 | Train e:  85.61, T l:  0.3349 | Val e:  85.41 , Val l: 1.0818 | Test e:  64.56 
+| Epoch   31 | Train e:  85.51, T l:  0.3296 | Val e:  86.13 , Val l: 1.0128 | Test e:  64.56 
+| Epoch   32 | Train e:  86.47, T l:  0.3287 | Val e:  85.57 , Val l: 0.7951 | Test e:  64.45 
+| Epoch   33 | Train e:  86.31, T l:  0.3314 | Val e:  85.84 , Val l: 0.8312 | Test e:  64.35 
+| Epoch   34 | Train e:  87.15, T l:  0.3201 | Val e:  86.05 , Val l: 1.0835 | Test e:  64.15 
+| Epoch   35 | Train e:  87.43, T l:  0.3139 | Val e:  86.54 , Val l: 0.8686 | Test e:  64.27 
+| Epoch   36 | Train e:  87.48, T l:  0.3146 | Val e:  85.62 , Val l: 0.7355 | Test e:  63.95 
+| Epoch   37 | Train e:  87.33, T l:  0.3122 | Val e:  86.12 , Val l: 0.9418 | Test e:  63.89 
+| Epoch   38 | Train e:  87.93, T l:  0.3152 | Val e:  86.45 , Val l: 1.1602 | Test e:  63.92 
+| Epoch   39 | Train e:  88.00, T l:  0.3056 | Val e:  86.19 , Val l: 0.6922 | Test e:  64.03 
+| Epoch   40 | Train e:  88.33, T l:  0.3214 | Val e:  87.59 , Val l: 0.9447 | Test e:  64.23 
+| Epoch   41 | Train e:  88.58, T l:  0.3005 | Val e:  87.00 , Val l: 1.0282 | Test e:  64.39 
+| Epoch   42 | Train e:  88.97, T l:  0.2938 | Val e:  87.35 , Val l: 1.2908 | Test e:  64.06 
+| Epoch   43 | Train e:  89.49, T l:  0.3069 | Val e:  87.40 , Val l: 1.1320 | Test e:  64.30 
+| Epoch   44 | Train e:  89.08, T l:  0.2993 | Val e:  87.09 , Val l: 0.7749 | Test e:  64.58 
+| Epoch   45 | Train e:  89.18, T l:  0.2854 | Val e:  87.59 , Val l: 0.8275 | Test e:  64.30 
+| Epoch   46 | Train e:  89.47, T l:  0.2806 | Val e:  86.44 , Val l: 0.5876 | Test e:  63.90 
+| Epoch   47 | Train e:  89.69, T l:  0.2907 | Val e:  87.56 , Val l: 0.8526 | Test e:  64.16 
+| Epoch   48 | Train e:  90.04, T l:  0.3002 | Val e:  88.10 , Val l: 1.3061 | Test e:  64.45 
+| Epoch   49 | Train e:  90.00, T l:  0.2895 | Val e:  89.00 , Val l: 0.8820 | Test e:  64.09 
+| Epoch   50 | Train e:  90.36, T l:  0.2790 | Val e:  88.67 , Val l: 0.8790 | Test e:  63.65 
+| Epoch   51 | Train e:  90.04, T l:  0.2806 | Val e:  87.21 , Val l: 0.6617 | Test e:  64.05 
+| Epoch   52 | Train e:  90.67, T l:  0.2933 | Val e:  88.58 , Val l: 0.7547 | Test e:  63.93 
+| Epoch   53 | Train e:  90.38, T l:  0.2769 | Val e:  87.62 , Val l: 0.4666 | Test e:  63.65 
+| Epoch   54 | Train e:  90.16, T l:  0.3052 | Val e:  87.83 , Val l: 0.8907 | Test e:  64.22 
+| Epoch   55 | Train e:  90.60, T l:  0.2896 | Val e:  87.79 , Val l: 0.8605 | Test e:  63.80 
+| Epoch   56 | Train e:  90.65, T l:  0.2767 | Val e:  88.34 , Val l: 0.7586 | Test e:  63.83 
+| Epoch   57 | Train e:  90.98, T l:  0.2751 | Val e:  88.02 , Val l: 0.5875 | Test e:  63.53 
+| Epoch   58 | Train e:  91.20, T l:  0.2651 | Val e:  87.84 , Val l: 0.7866 | Test e:  63.97 
+| Epoch   59 | Train e:  91.14, T l:  0.2628 | Val e:  87.85 , Val l: 0.8193 | Test e:  63.65 
+| Epoch   60 | Train e:  91.54, T l:  0.2674 | Val e:  87.19 , Val l: 0.7645 | Test e:  64.61 
+| Epoch   61 | Train e:  91.20, T l:  0.2845 | Val e:  87.93 , Val l: 0.5016 | Test e:  63.79 
+| Epoch   62 | Train e:  91.78, T l:  0.2694 | Val e:  88.60 , Val l: 0.8993 | Test e:  64.33 
+| Epoch   63 | Train e:  91.62, T l:  0.2611 | Val e:  89.02 , Val l: 0.5861 | Test e:  64.01 
+| Epoch   64 | Train e:  91.29, T l:  0.2601 | Val e:  87.99 , Val l: 0.6199 | Test e:  63.73 
+| Epoch   65 | Train e:  92.15, T l:  0.2786 | Val e:  88.66 , Val l: 0.8212 | Test e:  64.73 
+| Epoch   66 | Train e:  92.09, T l:  0.2586 | Val e:  88.46 , Val l: 0.7595 | Test e:  65.10 
+| Epoch   67 | Train e:  92.18, T l:  0.2552 | Val e:  88.36 , Val l: 0.7485 | Test e:  64.38 
+| Epoch   68 | Train e:  92.13, T l:  0.2511 | Val e:  87.06 , Val l: 0.6704 | Test e:  64.53 
+| Epoch   69 | Train e:  92.15, T l:  0.2614 | Val e:  88.69 , Val l: 0.6313 | Test e:  64.92 
+| Epoch   70 | Train e:  92.39, T l:  0.2512 | Val e:  89.26 , Val l: 0.6668 | Test e:  64.65 
+| Epoch   71 | Train e:  92.98, T l:  0.2532 | Val e:  88.98 , Val l: 1.0135 | Test e:  65.14 
+| Epoch   72 | Train e:  92.84, T l:  0.2490 | Val e:  88.94 , Val l: 0.6334 | Test e:  64.76 
+| Epoch   73 | Train e:  93.07, T l:  0.2353 | Val e:  89.16 , Val l: 0.9703 | Test e:  65.43 
+| Epoch   74 | Train e:  93.36, T l:  0.2545 | Val e:  88.30 , Val l: 0.9661 | Test e:  65.38 
+| Epoch   75 | Train e:  93.05, T l:  0.2354 | Val e:  88.51 , Val l: 1.0332 | Test e:  65.17 
+| Epoch   76 | Train e:  92.92, T l:  0.2572 | Val e:  88.13 , Val l: 0.7845 | Test e:  65.56 
+| Epoch   77 | Train e:  93.69, T l:  0.2443 | Val e:  88.75 , Val l: 0.7054 | Test e:  65.98 
+| Epoch   78 | Train e:  93.71, T l:  0.2373 | Val e:  89.36 , Val l: 0.7335 | Test e:  65.90 
+| Epoch   79 | Train e:  92.95, T l:  0.2382 | Val e:  89.22 , Val l: 0.6022 | Test e:  65.48 
+| Epoch   80 | Train e:  93.75, T l:  0.2333 | Val e:  88.70 , Val l: 0.5548 | Test e:  65.47 
+| Epoch   81 | Train e:  93.81, T l:  0.2461 | Val e:  88.41 , Val l: 1.1456 | Test e:  66.55 
+| Epoch   82 | Train e:  93.69, T l:  0.2520 | Val e:  89.36 , Val l: 0.7975 | Test e:  66.51 
+| Epoch   83 | Train e:  94.31, T l:  0.2377 | Val e:  89.28 , Val l: 1.0919 | Test e:  67.14 
+| Epoch   84 | Train e:  94.20, T l:  0.2508 | Val e:  89.58 , Val l: 0.9890 | Test e:  66.61 
+| Epoch   85 | Train e:  94.03, T l:  0.2587 | Val e:  89.38 , Val l: 0.5312 | Test e:  66.25 
+| Epoch   86 | Train e:  94.12, T l:  0.2274 | Val e:  88.59 , Val l: 0.6409 | Test e:  66.34 
+| Epoch   87 | Train e:  94.60, T l:  0.2259 | Val e:  87.63 , Val l: 1.3285 | Test e:  67.33 
+| Epoch   88 | Train e:  93.82, T l:  0.2307 | Val e:  88.86 , Val l: 0.6269 | Test e:  66.18 
+| Epoch   89 | Train e:  94.27, T l:  0.2351 | Val e:  89.30 , Val l: 0.6065 | Test e:  66.52 
+| Epoch   90 | Train e:  94.33, T l:  0.2175 | Val e:  88.97 , Val l: 0.7095 | Test e:  66.21 
+| Epoch   91 | Train e:  94.60, T l:  0.2207 | Val e:  89.36 , Val l: 0.8607 | Test e:  67.30 
+| Epoch   92 | Train e:  94.74, T l:  0.2207 | Val e:  89.22 , Val l: 0.7050 | Test e:  67.08 
+| Epoch   93 | Train e:  94.74, T l:  0.2251 | Val e:  88.97 , Val l: 0.5808 | Test e:  66.90 
+| Epoch   94 | Train e:  94.98, T l:  0.2258 | Val e:  89.30 , Val l: 0.8035 | Test e:  67.39 
+| Epoch   95 | Train e:  94.68, T l:  0.2229 | Val e:  89.80 , Val l: 0.4871 | Test e:  66.69 
+| Epoch   96 | Train e:  94.93, T l:  0.2181 | Val e:  89.39 , Val l: 0.7560 | Test e:  67.64 
+| Epoch   97 | Train e:  95.07, T l:  0.2116 | Val e:  89.33 , Val l: 0.7285 | Test e:  67.19 
+| Epoch   98 | Train e:  95.33, T l:  0.2113 | Val e:  88.49 , Val l: 0.8280 | Test e:  67.76 
+| Epoch   99 | Train e:  95.08, T l:  0.2152 | Val e:  88.58 , Val l: 1.0951 | Test e:  68.19 
+| Epoch  100 | Train e:  95.20, T l:  0.2246 | Val e:  89.08 , Val l: 0.8396 | Test e:  67.67 
+| Epoch  101 | Train e:  95.33, T l:  0.2113 | Val e:  89.22 , Val l: 0.7309 | Test e:  67.50 
+| Epoch  102 | Train e:  95.10, T l:  0.2194 | Val e:  89.75 , Val l: 0.5287 | Test e:  67.49 
+| Epoch  103 | Train e:  95.53, T l:  0.2220 | Val e:  88.96 , Val l: 0.7384 | Test e:  68.21 
+| Epoch  104 | Train e:  95.18, T l:  0.2149 | Val e:  88.95 , Val l: 0.9218 | Test e:  68.16 
+| Epoch  105 | Train e:  95.29, T l:  0.2196 | Val e:  89.23 , Val l: 0.5905 | Test e:  67.47 
+| Epoch  106 | Train e:  95.53, T l:  0.2172 | Val e:  88.68 , Val l: 0.8314 | Test e:  68.42 
+| Epoch  107 | Train e:  95.64, T l:  0.2115 | Val e:  89.26 , Val l: 0.5307 | Test e:  67.88 
+| Epoch  108 | Train e:  95.70, T l:  0.2110 | Val e:  89.70 , Val l: 0.5786 | Test e:  68.33 
+| Epoch  109 | Train e:  95.80, T l:  0.2087 | Val e:  89.24 , Val l: 0.6164 | Test e:  68.39 
+| Epoch  110 | Train e:  95.64, T l:  0.2048 | Val e:  88.67 , Val l: 0.7013 | Test e:  68.10 
+| Epoch  111 | Train e:  95.73, T l:  0.2027 | Val e:  88.47 , Val l: 0.6357 | Test e:  68.16 
+| Epoch  112 | Train e:  95.28, T l:  0.2085 | Val e:  89.44 , Val l: 0.5228 | Test e:  67.77 
+| Epoch  113 | Train e:  95.85, T l:  0.2294 | Val e:  87.86 , Val l: 1.0942 | Test e:  68.23 
+| Epoch  114 | Train e:  95.83, T l:  0.2328 | Val e:  89.84 , Val l: 0.8411 | Test e:  68.78 
+| Epoch  115 | Train e:  96.00, T l:  0.2153 | Val e:  89.59 , Val l: 0.8293 | Test e:  68.84 
+| Epoch  116 | Train e:  95.79, T l:  0.1959 | Val e:  89.00 , Val l: 0.6333 | Test e:  67.96 
+| Epoch  117 | Train e:  96.12, T l:  0.1991 | Val e:  88.56 , Val l: 0.8934 | Test e:  68.73 
+| Epoch  118 | Train e:  95.71, T l:  0.2052 | Val e:  88.66 , Val l: 0.7382 | Test e:  68.61 
+| Epoch  119 | Train e:  96.10, T l:  0.1891 | Val e:  88.68 , Val l: 0.8124 | Test e:  68.74 
+| Epoch  120 | Train e:  95.95, T l:  0.2013 | Val e:  88.79 , Val l: 0.7300 | Test e:  68.08 
+| Epoch  121 | Train e:  96.17, T l:  0.2103 | Val e:  89.50 , Val l: 0.6096 | Test e:  68.79 
+| Epoch  122 | Train e:  95.91, T l:  0.2110 | Val e:  89.37 , Val l: 0.5614 | Test e:  68.37 
+| Epoch  123 | Train e:  96.12, T l:  0.1979 | Val e:  89.56 , Val l: 0.6460 | Test e:  68.50 
+| Epoch  124 | Train e:  96.12, T l:  0.2027 | Val e:  89.22 , Val l: 0.7161 | Test e:  68.50 
+| Epoch  125 | Train e:  96.06, T l:  0.1979 | Val e:  88.99 , Val l: 0.7893 | Test e:  69.40 
+| Epoch  126 | Train e:  96.27, T l:  0.1882 | Val e:  88.64 , Val l: 0.7672 | Test e:  68.23 
+| Epoch  127 | Train e:  96.15, T l:  0.1892 | Val e:  89.67 , Val l: 0.7298 | Test e:  68.99 
+| Epoch  128 | Train e:  96.39, T l:  0.1983 | Val e:  89.72 , Val l: 0.5293 | Test e:  68.45 
+| Epoch  129 | Train e:  96.27, T l:  0.1968 | Val e:  89.75 , Val l: 0.7792 | Test e:  69.18 
+| Epoch  130 | Train e:  96.25, T l:  0.1853 | Val e:  90.24 , Val l: 0.5902 | Test e:  68.55 
+| Epoch  131 | Train e:  96.44, T l:  0.1866 | Val e:  88.95 , Val l: 0.7796 | Test e:  68.96 
+| Epoch  132 | Train e:  96.27, T l:  0.1975 | Val e:  89.42 , Val l: 0.6628 | Test e:  68.94 
+| Epoch  133 | Train e:  96.62, T l:  0.1879 | Val e:  88.88 , Val l: 0.6971 | Test e:  68.40 
+| Epoch  134 | Train e:  96.67, T l:  0.1866 | Val e:  88.97 , Val l: 0.7162 | Test e:  68.60 
+| Epoch  135 | Train e:  96.52, T l:  0.1886 | Val e:  89.53 , Val l: 0.6399 | Test e:  68.55 
+| Epoch  136 | Train e:  96.51, T l:  0.1838 | Val e:  88.13 , Val l: 0.9724 | Test e:  68.39 
+| Epoch  137 | Train e:  96.57, T l:  0.2028 | Val e:  90.04 , Val l: 0.5290 | Test e:  69.16 
+| Epoch  138 | Train e:  96.62, T l:  0.1867 | Val e:  88.77 , Val l: 0.8343 | Test e:  68.79 
+| Epoch  139 | Train e:  96.41, T l:  0.1994 | Val e:  90.10 , Val l: 0.5986 | Test e:  69.20 
+| Epoch  140 | Train e:  96.81, T l:  0.1812 | Val e:  89.79 , Val l: 0.6100 | Test e:  69.23 
+| Epoch  141 | Train e:  96.63, T l:  0.1929 | Val e:  88.68 , Val l: 0.8456 | Test e:  68.55 
+| Epoch  142 | Train e:  96.43, T l:  0.1973 | Val e:  90.39 , Val l: 0.5355 | Test e:  69.31 
+| Epoch  143 | Train e:  96.79, T l:  0.1804 | Val e:  89.48 , Val l: 0.7131 | Test e:  68.94 
+| Epoch  144 | Train e:  96.88, T l:  0.1818 | Val e:  89.97 , Val l: 0.6421 | Test e:  68.93 
+| Epoch  145 | Train e:  96.72, T l:  0.1876 | Val e:  89.56 , Val l: 0.6474 | Test e:  68.61 
+| Epoch  146 | Train e:  96.71, T l:  0.1814 | Val e:  89.47 , Val l: 0.7865 | Test e:  69.12 
+| Epoch  147 | Train e:  96.78, T l:  0.1851 | Val e:  88.82 , Val l: 0.8926 | Test e:  68.99 
+| Epoch  148 | Train e:  96.93, T l:  0.1780 | Val e:  89.31 , Val l: 0.8455 | Test e:  69.39 
+| Epoch  149 | Train e:  96.80, T l:  0.1777 | Val e:  89.67 , Val l: 0.6719 | Test e:  68.74 
+| Epoch  150 | Train e:  96.72, T l:  0.1728 | Val e:  89.89 , Val l: 0.6551 | Test e:  68.90 
+| Epoch  151 | Train e:  96.88, T l:  0.1807 | Val e:  89.37 , Val l: 0.7118 | Test e:  69.16 
+| Epoch  152 | Train e:  96.91, T l:  0.1772 | Val e:  89.79 , Val l: 0.5955 | Test e:  69.25 
+| Epoch  153 | Train e:  96.95, T l:  0.1778 | Val e:  88.84 , Val l: 0.9393 | Test e:  69.29 
+| Epoch  154 | Train e:  97.06, T l:  0.1841 | Val e:  89.46 , Val l: 0.7586 | Test e:  69.14 
+| Epoch  155 | Train e:  96.94, T l:  0.1760 | Val e:  89.83 , Val l: 0.6269 | Test e:  69.20 
+| Epoch  156 | Train e:  97.05, T l:  0.1830 | Val e:  89.14 , Val l: 0.7285 | Test e:  69.28 
+| Epoch  157 | Train e:  96.91, T l:  0.1748 | Val e:  89.98 , Val l: 0.5543 | Test e:  69.50 
+| Epoch  158 | Train e:  96.94, T l:  0.1711 | Val e:  89.56 , Val l: 0.6469 | Test e:  69.09 
+| Epoch  159 | Train e:  97.03, T l:  0.1814 | Val e:  89.62 , Val l: 0.7273 | Test e:  69.30 
+| Epoch  160 | Train e:  97.02, T l:  0.1768 | Val e:  89.96 , Val l: 0.7256 | Test e:  69.16 
+| Epoch  161 | Train e:  97.00, T l:  0.1782 | Val e:  89.93 , Val l: 0.6145 | Test e:  69.18 
+| Epoch  162 | Train e:  97.12, T l:  0.1677 | Val e:  89.55 , Val l: 0.9805 | Test e:  69.14 
+| Epoch  163 | Train e:  97.07, T l:  0.1721 | Val e:  90.00 , Val l: 0.7293 | Test e:  69.67 
+| Epoch  164 | Train e:  97.04, T l:  0.1799 | Val e:  90.82 , Val l: 0.4894 | Test e:  69.71 
+| Epoch  165 | Train e:  96.92, T l:  0.1670 | Val e:  90.61 , Val l: 0.5753 | Test e:  69.44 
+| Epoch  166 | Train e:  97.07, T l:  0.1736 | Val e:  90.64 , Val l: 0.5443 | Test e:  69.24 
+| Epoch  167 | Train e:  97.07, T l:  0.1790 | Val e:  90.53 , Val l: 0.5776 | Test e:  69.35 
+| Epoch  168 | Train e:  97.03, T l:  0.1788 | Val e:  89.92 , Val l: 0.6364 | Test e:  69.27 
+| Epoch  169 | Train e:  97.18, T l:  0.1732 | Val e:  89.53 , Val l: 0.7535 | Test e:  69.35 
+| Epoch  170 | Train e:  97.18, T l:  0.1694 | Val e:  89.93 , Val l: 0.6201 | Test e:  69.43 
+| Epoch  171 | Train e:  97.15, T l:  0.1650 | Val e:  90.41 , Val l: 0.5853 | Test e:  69.56 
+| Epoch  172 | Train e:  97.11, T l:  0.1701 | Val e:  90.34 , Val l: 0.6319 | Test e:  69.51 
+| Epoch  173 | Train e:  97.36, T l:  0.1706 | Val e:  89.54 , Val l: 0.7731 | Test e:  69.43 
+| Epoch  174 | Train e:  97.12, T l:  0.1692 | Val e:  90.17 , Val l: 0.6518 | Test e:  69.87 
+| Epoch  175 | Train e:  97.34, T l:  0.1666 | Val e:  89.87 , Val l: 0.6922 | Test e:  69.16 
+| Epoch  176 | Train e:  97.23, T l:  0.1617 | Val e:  90.19 , Val l: 0.6327 | Test e:  69.51 
+| Epoch  177 | Train e:  97.26, T l:  0.1695 | Val e:  90.11 , Val l: 0.6218 | Test e:  69.43 
+| Epoch  178 | Train e:  97.37, T l:  0.1682 | Val e:  89.97 , Val l: 0.6696 | Test e:  69.60 
+| Epoch  179 | Train e:  97.35, T l:  0.1678 | Val e:  89.69 , Val l: 0.7305 | Test e:  69.56 
+| Epoch  180 | Train e:  97.24, T l:  0.1647 | Val e:  89.87 , Val l: 0.6350 | Test e:  69.30 
+| Epoch  181 | Train e:  97.25, T l:  0.1700 | Val e:  89.82 , Val l: 0.7081 | Test e:  69.28 
+| Epoch  182 | Train e:  97.20, T l:  0.1651 | Val e:  89.60 , Val l: 0.7303 | Test e:  69.46 
+| Epoch  183 | Train e:  97.43, T l:  0.1705 | Val e:  89.48 , Val l: 0.7569 | Test e:  69.44 
+| Epoch  184 | Train e:  97.07, T l:  0.1673 | Val e:  90.34 , Val l: 0.5873 | Test e:  69.37 
+| Epoch  185 | Train e:  97.26, T l:  0.1646 | Val e:  89.80 , Val l: 0.7183 | Test e:  69.30 
+| Epoch  186 | Train e:  97.35, T l:  0.1640 | Val e:  89.99 , Val l: 0.6909 | Test e:  69.25 
+| Epoch  187 | Train e:  97.32, T l:  0.1636 | Val e:  90.01 , Val l: 0.6860 | Test e:  69.46 
+| Epoch  188 | Train e:  97.30, T l:  0.1723 | Val e:  89.75 , Val l: 0.7671 | Test e:  69.61 
+| Epoch  189 | Train e:  97.35, T l:  0.1622 | Val e:  90.02 , Val l: 0.6790 | Test e:  69.50 
+| Epoch  190 | Train e:  97.35, T l:  0.1674 | Val e:  90.08 , Val l: 0.6839 | Test e:  69.45 
+| Epoch  191 | Train e:  97.50, T l:  0.1597 | Val e:  90.15 , Val l: 0.6558 | Test e:  69.42 
+| Epoch  192 | Train e:  97.43, T l:  0.1588 | Val e:  89.82 , Val l: 0.7340 | Test e:  69.50 
+| Epoch  193 | Train e:  97.43, T l:  0.1578 | Val e:  89.90 , Val l: 0.7163 | Test e:  69.36 
+| Epoch  194 | Train e:  97.36, T l:  0.1672 | Val e:  90.18 , Val l: 0.6742 | Test e:  69.50 
+| Epoch  195 | Train e:  97.51, T l:  0.1540 | Val e:  90.12 , Val l: 0.6857 | Test e:  69.48 
+| Epoch  196 | Train e:  97.15, T l:  0.1606 | Val e:  90.02 , Val l: 0.7111 | Test e:  69.38 
+| Epoch  197 | Train e:  97.40, T l:  0.1607 | Val e:  90.04 , Val l: 0.6873 | Test e:  69.32 
+| Epoch  198 | Train e:  97.30, T l:  0.1635 | Val e:  90.04 , Val l: 0.6905 | Test e:  69.36 
+| Epoch  199 | Train e:  97.45, T l:  0.1663 | Val e:  90.05 , Val l: 0.6859 | Test e:  69.35 

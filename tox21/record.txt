@@ -1,0 +1,75 @@
+
+---------------------------
+2022-08-21
+
+main.py --readout cls --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --no-clustering --masked-attention --batch-size 32 --epochs 200 --warmup 20 --gconv-dropout 0.5 --tlayer-dropout 0.5 
+
+node_embedding
+edge_embedding
+{
+    glayer {
+        ginconv 
+        + ln 
+        + relu 
+        + dropout(0.5) 
+    } x 2, 
+    tlayer {
+        attention_block(
+            no clustering, 
+            masked attention, 
+            CLS as a token contributing to attention score (not masked using infinity), 
+            attention score dropout(0.5)  
+        )
+        + FFN(
+            hidden_dim = 2 * hidden_dim, 
+            ln=True, 
+            has relu, 
+            dropout 0.5, 
+        )
+    } x 1
+} x 4 
+
+ginconv:
+def __init__(self, emb_dim): 
+    super().__init__(aggr = "add") 
+
+    self.nn = Sequential(
+        Linear(emb_dim, emb_dim), 
+        LayerNorm(emb_dim), 
+        ReLU(), 
+        Linear(emb_dim, emb_dim)  
+    )  
+
+def forward(self, x, edge_index, edge_attr):
+    out = self.nn(x + self.propagate(edge_index, x=x, edge_attr=edge_attr)) 
+    return out
+
+def message(self, x_j, edge_attr): 
+    m = x_j + edge_attr 
+    m = F.relu(m) 
+    return m 
+
+use_val_loss: False
+epochs: 200
+scheduler: linear
+warmup: 20
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+clustering: False
+masked_attention: True
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.5
+tlayer_dropout: 0.5
+num_layers: 4
+num_heads: 8
+skip_connection: none
+readout: cls
+
+
+Test 78.3000 ± 0.5101
+Val  81.5400 ± 0.3388
+
+Test 78.1700 ± 0.5667
+Val  81.4900 ± 0.3203 

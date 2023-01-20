@@ -1,0 +1,97 @@
+
+
+===============================================
+2023-01-08 16:43:47
+
+main_parallel_transformerconv.py --seeds 2333 --device 2
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 2333
+device: 2
+save_state: False
+
+
+
+| Epoch    0 | Train e:  0.0342, T l:  0.2431 | Val e:  0.0362 | Test e:  0.0376 
+| Epoch    1 | Train e:  0.0569, T l:  0.0598 | Val e:  0.0572 | Test e:  0.0600 
+| Epoch    2 | Train e:  0.0934, T l:  0.0498 | Val e:  0.0974 | Test e:  0.1000 
+| Epoch    3 | Train e:  0.1212, T l:  0.0465 | Val e:  0.1227 | Test e:  0.1222 
+| Epoch    4 | Train e:  0.1496, T l:  0.0446 | Val e:  0.1427 | Test e:  0.1422 
+| Epoch    5 | Train e:  0.1670, T l:  0.0432 | Val e:  0.1506 | Test e:  0.1551 
+| Epoch    6 | Train e:  0.1868, T l:  0.0420 | Val e:  0.1667 | Test e:  0.1702 
+| Epoch    7 | Train e:  0.2095, T l:  0.0412 | Val e:  0.1841 | Test e:  0.1825 
+| Epoch    8 | Train e:  0.2129, T l:  0.0406 | Val e:  0.1821 | Test e:  0.1855 
+| Epoch    9 | Train e:  0.2342, T l:  0.0401 | Val e:  0.1979 | Test e:  0.1954 
+| Epoch   10 | Train e:  0.2382, T l:  0.0397 | Val e:  0.1996 | Test e:  0.1999 
+| Epoch   11 | Train e:  0.2488, T l:  0.0391 | Val e:  0.2056 | Test e:  0.2052 
+| Epoch   12 | Train e:  0.2660, T l:  0.0386 | Val e:  0.2110 | Test e:  0.2102 
+| Epoch   13 | Train e:  0.2755, T l:  0.0380 | Val e:  0.2154 | Test e:  0.2136 
+| Epoch   14 | Train e:  0.2856, T l:  0.0377 | Val e:  0.2200 | Test e:  0.2143 
+| Epoch   15 | Train e:  0.2900, T l:  0.0373 | Val e:  0.2204 | Test e:  0.2205 
+| Epoch   16 | Train e:  0.2947, T l:  0.0369 | Val e:  0.2225 | Test e:  0.2238 
+| Epoch   17 | Train e:  0.3073, T l:  0.0365 | Val e:  0.2285 | Test e:  0.2297 
+| Epoch   18 | Train e:  0.3173, T l:  0.0361 | Val e:  0.2307 | Test e:  0.2323 
+| Epoch   19 | Train e:  0.3230, T l:  0.0358 | Val e:  0.2327 | Test e:  0.2329 
+| Epoch   20 | Train e:  0.3217, T l:  0.0355 | Val e:  0.2330 | Test e:  0.2291 
+| Epoch   21 | Train e:  0.3186, T l:  0.0351 | Val e:  0.2327 | Test e:  0.2286 
+| Epoch   22 | Train e:  0.3331, T l:  0.0348 | Val e:  0.2393 | Test e:  0.2369 
+| Epoch   23 | Train e:  0.3382, T l:  0.0346 | Val e:  0.2363 | Test e:  0.2331 
+| Epoch   24 | Train e:  0.3354, T l:  0.0342 | Val e:  0.2287 | Test e:  0.2267 
+| Epoch   25 | Train e:  0.3456, T l:  0.0340 | Val e:  0.2371 | Test e:  0.2329 
+| Epoch   26 | Train e:  0.3483, T l:  0.0337 | Val e:  0.2349 | Test e:  0.2281 
+| Epoch   27 | Train e:  0.3514, T l:  0.0335 | Val e:  0.2385 | Test e:  0.2294 
+| Epoch   28 | Train e:  0.3456, T l:  0.0332 | Val e:  0.2291 | Test e:  0.2215 
+| Epoch   29 | Train e:  0.3641, T l:  0.0330 | Val e:  0.2362 | Test e:  0.2298 
+| Epoch   30 | Train e:  0.3782, T l:  0.0328 | Val e:  0.2477 | Test e:  0.2374 
+| Epoch   31 | Train e:  0.3615, T l:  0.0325 | Val e:  0.2307 | Test e:  0.2227 
+| Epoch   32 | Train e:  0.3804, T l:  0.0323 | Val e:  0.2458 | Test e:  0.2361 
+| Epoch   33 | Train e:  0.3701, T l:  0.0321 | Val e:  0.2360 | Test e:  0.2199 
+| Epoch   34 | Train e:  0.3829, T l:  0.0318 | Val e:  0.2381 | Test e:  0.2302 
+| Epoch   35 | Train e:  0.3976, T l:  0.0316 | Val e:  0.2455 | Test e:  0.2361 
+| Epoch   36 | Train e:  0.3800, T l:  0.0314 | Val e:  0.2400 | Test e:  0.2241 
+| Epoch   37 | Train e:  0.4066, T l:  0.0312 | Val e:  0.2442 | Test e:  0.2361 
+| Epoch   38 | Train e:  0.3969, T l:  0.0311 | Val e:  0.2380 | Test e:  0.2308 
+| Epoch   39 | Train e:  0.3936, T l:  0.0308 | Val e:  0.2329 | Test e:  0.2227 
+| Epoch   40 | Train e:  0.4124, T l:  0.0306 | Val e:  0.2448 | Test e:  0.2316 
+| Epoch   41 | Train e:  0.4026, T l:  0.0304 | Val e:  0.2349 | Test e:  0.2290 
+| Epoch   42 | Train e:  0.4154, T l:  0.0303 | Val e:  0.2486 | Test e:  0.2362 
+| Epoch   43 | Train e:  0.4114, T l:  0.0301 | Val e:  0.2335 | Test e:  0.2233 
+| Epoch   44 | Train e:  0.4239, T l:  0.0299 | Val e:  0.2490 | Test e:  0.2337 
+| Epoch   45 | Train e:  0.4302, T l:  0.0297 | Val e:  0.2459 | Test e:  0.2353 
+| Epoch   46 | Train e:  0.4222, T l:  0.0296 | Val e:  0.2385 | Test e:  0.2263 
+| Epoch   47 | Train e:  0.4360, T l:  0.0294 | Val e:  0.2407 | Test e:  0.2321 
+| Epoch   48 | Train e:  0.4250, T l:  0.0292 | Val e:  0.2365 | Test e:  0.2280 
+| Epoch   49 | Train e:  0.4266, T l:  0.0291 | Val e:  0.2371 | Test e:  0.2242 
+| Epoch   50 | Train e:  0.4288, T l:  0.0290 | Val e:  0.2357 | Test e:  0.2249 
+| Epoch   51 | Train e:  0.4406, T l:  0.0287 | Val e:  0.2384 | Test e:  0.2289 
+| Epoch   52 | Train e:  0.4516, T l:  0.0286 | Val e:  0.2407 | Test e:  0.2311 
+| Epoch   53 | Train e:  0.4359, T l:  0.0284 | Val e:  0.2332 | Test e:  0.2198 
+| Epoch   54 | Train e:  0.4423, T l:  0.0283 | Val e:  0.2335 | Test e:  0.2237 
+| Epoch   55 | Train e:  0.4409, T l:  0.0281 | Val e:  0.2343 | Test e:  0.2229 
+| Epoch   56 | Train e:  0.4428, T l:  0.0279 | Val e:  0.2313 | Test e:  0.2192 
+| Epoch   57 | Train e:  0.4575, T l:  0.0278 | Val e:  0.2396 | Test e:  0.2277 
+| Epoch   58 | Train e:  0.4470, T l:  0.0277 | Val e:  0.2305 | Test e:  0.2233 

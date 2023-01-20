@@ -1,0 +1,2153 @@
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 666 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 666
+save_state: False
+
+
+Run time: 752.9452061249758
+Best Epoch: 164
+Val: 91.53
+Test Score: 70.57
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 23333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 23333
+save_state: False
+
+
+Run time: 755.7967348850216
+Best Epoch: 126
+Val: 91.16
+Test Score: 69.76
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 886 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 886
+save_state: False
+
+
+Run time: 755.9988895679708
+Best Epoch: 90
+Val: 91.45
+Test Score: 71.06
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 12138 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 12138
+save_state: False
+
+
+Run time: 758.124293093977
+Best Epoch: 95
+Val: 92.25
+Test Score: 69.37
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2333
+save_state: False
+
+
+Run time: 759.6627115139854
+Best Epoch: 85
+Val: 91.15
+Test Score: 71.16
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 271828 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 271828
+save_state: False
+
+
+Run time: 779.2951185439597
+Best Epoch: 71
+Val: 91.87
+Test Score: 69.14
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2020 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2020
+save_state: False
+
+
+Run time: 780.2321344559896
+Best Epoch: 118
+Val: 91.98
+Test Score: 70.10
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 314159
+save_state: False
+
+
+Run time: 781.680542253016
+Best Epoch: 82
+Val: 92.06
+Test Score: 69.85
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 42 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+Run time: 782.2233536980348
+Best Epoch: 80
+Val: 91.59
+Test Score: 70.02
+
+
+
+===============================================
+2022-07-16 23:31:00
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2022 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2022
+save_state: False
+
+
+Run time: 782.0113950269879
+Best Epoch: 111
+Val: 90.72
+Test Score: 70.83
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 666 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 666
+save_state: False
+
+
+Run time: 759.3021178089548
+Best Epoch: 164
+Val: 91.67
+Test Score: 70.58
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 886 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 886
+save_state: False
+
+
+Run time: 760.0000486559584
+Best Epoch: 90
+Val: 91.22
+Test Score: 71.11
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2333
+save_state: False
+
+
+Run time: 760.9617083839839
+Best Epoch: 85
+Val: 91.09
+Test Score: 71.10
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 23333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 23333
+save_state: False
+
+
+Run time: 762.0034887859947
+Best Epoch: 122
+Val: 91.28
+Test Score: 69.95
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 12138 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 12138
+save_state: False
+
+
+Run time: 762.6997964330367
+Best Epoch: 95
+Val: 92.19
+Test Score: 69.41
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2022 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2022
+save_state: False
+
+
+Run time: 793.9074626350193
+Best Epoch: 132
+Val: 90.42
+Test Score: 70.16
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 314159
+save_state: False
+
+
+Run time: 795.3729468479869
+Best Epoch: 82
+Val: 91.98
+Test Score: 69.95
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 271828 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 271828
+save_state: False
+
+
+Run time: 795.0649661119678
+Best Epoch: 107
+Val: 92.09
+Test Score: 71.49
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 42 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+Run time: 796.2211903920397
+Best Epoch: 80
+Val: 91.53
+Test Score: 69.82
+
+
+
+===============================================
+2022-07-16 23:51:09
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2020 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2020
+save_state: False
+
+
+Run time: 795.7981471340172
+Best Epoch: 118
+Val: 91.82
+Test Score: 69.93
+
+
+
+===============================================
+2022-07-17 00:10:42
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 12138 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 12138
+save_state: False
+
+
+Run time: 758.2272752530407
+Best Epoch: 95
+Val: 92.17
+Test Score: 69.29
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 23333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 23333
+save_state: False
+
+
+Run time: 762.4609629879706
+Best Epoch: 122
+Val: 91.19
+Test Score: 70.27
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 886 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 886
+save_state: False
+
+
+Run time: 763.1410279719857
+Best Epoch: 90
+Val: 91.62
+Test Score: 71.04
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2333
+save_state: False
+
+
+Run time: 763.3181909379782
+Best Epoch: 85
+Val: 91.13
+Test Score: 71.17
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 666 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 666
+save_state: False
+
+
+Run time: 764.5928593209828
+Best Epoch: 128
+Val: 91.61
+Test Score: 70.82
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 314159
+save_state: False
+
+
+Run time: 789.4096974239801
+Best Epoch: 82
+Val: 91.87
+Test Score: 69.99
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 42 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+Run time: 800.0002460129908
+Best Epoch: 80
+Val: 91.45
+Test Score: 70.06
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2022 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2022
+save_state: False
+
+
+Run time: 800.2013972619898
+Best Epoch: 111
+Val: 90.53
+Test Score: 71.03
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2020 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2020
+save_state: False
+
+
+Run time: 800.941606428998
+Best Epoch: 118
+Val: 92.16
+Test Score: 69.91
+
+
+
+===============================================
+2022-07-17 00:10:43
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 271828 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 271828
+save_state: False
+
+
+Run time: 801.1630728369928
+Best Epoch: 114
+Val: 92.21
+Test Score: 71.91
+
+
+
+===============================================
+2022-07-22 23:40:07
+
+main.py
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: cosine
+epochs: 200
+warmup: 10
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+Run time: 459.9762040110072
+Best Epoch: 45
+Val: 92.31
+Test Score: 70.47
+
+
+
+===============================================
+2022-07-22 23:47:54
+
+main.py
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: cosine
+epochs: 200
+warmup: 10
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+Run time: 464.47131305595394
+Best Epoch: 80
+Val: 92.14
+Test Score: 71.92
+
+
+
+
+
+
+-------------------
+
+A = torch.softmax(attention_score, -1) # no clustering, no infinity mask 
+
+--------------------------
+
+
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 886 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 886
+save_state: False
+
+
+Run time: 734.6634663199075
+Best Epoch: 59
+Val: 89.80
+Test Score: 69.65
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 666 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 666
+save_state: False
+
+
+Run time: 735.8565254220739
+Best Epoch: 66
+Val: 91.01
+Test Score: 68.73
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2333
+save_state: False
+
+
+Run time: 738.400289186975
+Best Epoch: 179
+Val: 90.82
+Test Score: 71.53
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 12138 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 12138
+save_state: False
+
+
+Run time: 739.0294217870105
+Best Epoch: 79
+Val: 90.31
+Test Score: 70.48
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 23333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 23333
+save_state: False
+
+
+Run time: 740.366296669934
+Best Epoch: 93
+Val: 89.61
+Test Score: 69.35
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 314159
+save_state: False
+
+
+Run time: 758.0001883700024
+Best Epoch: 86
+Val: 92.69
+Test Score: 71.76
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2022 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2022
+save_state: False
+
+
+Run time: 762.6155715188943
+Best Epoch: 111
+Val: 91.69
+Test Score: 70.74
+
+
+
+===============================================
+2022-07-24 01:49:16
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2020 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2020
+save_state: False
+
+
+Run time: 763.9564401879907
+Best Epoch: 89
+Val: 90.28
+Test Score: 67.89
+
+
+
+===============================================
+2022-07-24 01:49:17
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 271828 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 271828
+save_state: False
+
+
+Run time: 763.9495325989556
+Best Epoch: 125
+Val: 92.35
+Test Score: 72.15
+
+
+
+===============================================
+2022-07-24 01:49:17
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 42 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+Run time: 764.8894985029474
+Best Epoch: 107
+Val: 91.52
+Test Score: 70.38
+
+
+
+
+
+
+----------------------------------
+
+inf_mask = (~mask).unsqueeze(-1).to(dtype=torch.float) * -1e9 
+attention_score = attention_score / math.sqrt(self.hidden_dim)
+A = torch.softmax(attention_score, 1) # clustering, no infinity mask 
+
+----------------------------------
+
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 23333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 23333
+save_state: False
+
+
+Run time: 755.5648192991503
+Best Epoch: 122
+Val: 91.05
+Test Score: 70.09
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 666 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 666
+save_state: False
+
+
+Run time: 756.3158573650289
+Best Epoch: 128
+Val: 91.59
+Test Score: 70.78
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 12138 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 12138
+save_state: False
+
+
+Run time: 758.3918057610281
+Best Epoch: 95
+Val: 92.50
+Test Score: 69.49
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 886 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 886
+save_state: False
+
+
+Run time: 758.8845911500975
+Best Epoch: 90
+Val: 91.47
+Test Score: 71.08
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2333
+save_state: False
+
+
+Run time: 760.4139482341707
+Best Epoch: 97
+Val: 91.26
+Test Score: 69.97
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 314159
+save_state: False
+
+
+Run time: 785.0199582190253
+Best Epoch: 82
+Val: 92.02
+Test Score: 70.06
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2020 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2020
+save_state: False
+
+
+Run time: 785.4851648299955
+Best Epoch: 118
+Val: 91.78
+Test Score: 70.21
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2022 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2022
+save_state: False
+
+
+Run time: 786.2461274510715
+Best Epoch: 111
+Val: 90.83
+Test Score: 70.80
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 271828 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 271828
+save_state: False
+
+
+Run time: 786.6762263469864
+Best Epoch: 108
+Val: 92.17
+Test Score: 71.72
+
+
+
+===============================================
+2022-07-25 17:47:57
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 42 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+Run time: 788.0055596330203
+Best Epoch: 80
+Val: 91.42
+Test Score: 69.79
+
+
+
+
+--------------------------------------------
+A = torch.softmax(attention_score, 1) # clustering, no infinity mask 
+--------------------------------------------
+
+
+
+
+===============================================
+2022-07-26 22:13:29
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2333
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 748.3778488708194
+Best Epoch: 85
+Val: 91.06
+Test Score: 70.99
+
+
+
+===============================================
+2022-07-26 22:13:29
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 12138 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 12138
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 750.5866518691182
+Best Epoch: 102
+Val: 92.57
+Test Score: 68.88
+
+
+
+===============================================
+2022-07-26 22:13:29
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 666 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 666
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 751.5765040048864
+Best Epoch: 141
+Val: 92.01
+Test Score: 69.68
+
+
+
+===============================================
+2022-07-26 22:13:30
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 23333 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 23333
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 751.7107908660546
+Best Epoch: 93
+Val: 91.26
+Test Score: 69.98
+
+
+
+===============================================
+2022-07-26 22:13:30
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 886 --device 0
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 886
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 752.2740535819903
+Best Epoch: 90
+Val: 91.44
+Test Score: 71.13
+
+
+
+===============================================
+2022-07-26 22:13:29
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 271828 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 271828
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 779.837446401827
+Best Epoch: 108
+Val: 92.42
+Test Score: 71.82
+
+
+
+===============================================
+2022-07-26 22:13:30
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2020 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2020
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 781.9021028999705
+Best Epoch: 118
+Val: 91.25
+Test Score: 69.98
+
+
+
+===============================================
+2022-07-26 22:13:30
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 2022 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 2022
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 784.5877806991339
+Best Epoch: 132
+Val: 90.83
+Test Score: 70.55
+
+
+
+===============================================
+2022-07-26 22:13:30
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 42 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 784.7709642590489
+Best Epoch: 80
+Val: 91.49
+Test Score: 69.84
+
+
+
+===============================================
+2022-07-26 22:13:30
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 314159
+save_state: False
+transformer_dropout: 0.1
+
+
+Run time: 785.518570180051
+Best Epoch: 86
+Val: 92.24
+Test Score: 71.59
+

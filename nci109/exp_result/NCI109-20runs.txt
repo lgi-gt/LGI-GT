@@ -1,0 +1,563 @@
+
+===============================================
+2022-08-11 08:09:15
+
+main.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 0
+
+4 gconv + 2 tlayer for one layer x 2; really short skip connection after every module, after bn, before relu
+
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 128
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  99.85, T l:  0.0026 | Best Epoch:  26 | Best Val: 84.47 | Test Score: 81.88
+
+Last T e:  99.76, T l:  0.0031 | Best Epoch:  59 | Best Val: 85.19 | Test Score: 82.61
+
+Last T e:  99.88, T l:  0.0026 | Best Epoch:  62 | Best Val: 83.98 | Test Score: 84.30
+
+Last T e:  99.94, T l:  0.0015 | Best Epoch:  73 | Best Val: 83.50 | Test Score: 83.09
+
+Last T e:  99.94, T l:  0.0017 | Best Epoch:  56 | Best Val: 85.92 | Test Score: 84.54
+
+Last T e:  99.85, T l:  0.0030 | Best Epoch:  62 | Best Val: 83.74 | Test Score: 85.75
+
+Last T e:  99.88, T l:  0.0024 | Best Epoch:  49 | Best Val: 84.22 | Test Score: 80.43
+
+Last T e:  99.91, T l:  0.0019 | Best Epoch:  57 | Best Val: 83.25 | Test Score: 84.30
+
+Last T e:  99.85, T l:  0.0032 | Best Epoch:  59 | Best Val: 85.44 | Test Score: 82.13
+
+Last T e:  99.88, T l:  0.0020 | Best Epoch:  61 | Best Val: 85.44 | Test Score: 80.19
+
+Last T e:  99.91, T l:  0.0026 | Best Epoch:  57 | Best Val: 83.50 | Test Score: 84.54
+
+Last T e:  99.91, T l:  0.0023 | Best Epoch:  33 | Best Val: 86.17 | Test Score: 80.92
+
+Last T e:  99.85, T l:  0.0026 | Best Epoch:  39 | Best Val: 84.71 | Test Score: 82.61
+
+Last T e:  99.91, T l:  0.0021 | Best Epoch:  41 | Best Val: 82.52 | Test Score: 85.27
+
+Last T e:  99.88, T l:  0.0029 | Best Epoch:  50 | Best Val: 81.80 | Test Score: 82.37
+
+Last T e:  99.85, T l:  0.0030 | Best Epoch:  56 | Best Val: 82.28 | Test Score: 79.71
+
+Last T e:  99.91, T l:  0.0019 | Best Epoch:  90 | Best Val: 83.74 | Test Score: 84.30
+
+Last T e:  99.91, T l:  0.0019 | Best Epoch:  27 | Best Val: 83.01 | Test Score: 83.82
+
+Last T e:  99.88, T l:  0.0028 | Best Epoch:  54 | Best Val: 83.74 | Test Score: 81.64
+
+Last T e:  99.76, T l:  0.0035 | Best Epoch:  42 | Best Val: 84.22 | Test Score: 83.82
+
+
+===============================================
+2022-08-11 08:09:01
+
+main.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 1
+
+4 gconv + 2 tlayer for one layer x 2; really short skip connection after every module, after bn, before relu
+
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 128
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  99.82, T l:  0.0026 | Best Epoch:  29 | Best Val: 84.22 | Test Score: 80.92
+
+Last T e:  99.85, T l:  0.0031 | Best Epoch:  60 | Best Val: 85.68 | Test Score: 81.88
+
+Last T e:  99.91, T l:  0.0025 | Best Epoch:  44 | Best Val: 82.77 | Test Score: 84.54
+
+Last T e:  99.94, T l:  0.0014 | Best Epoch:  45 | Best Val: 82.77 | Test Score: 82.37
+
+Last T e:  99.91, T l:  0.0017 | Best Epoch:  56 | Best Val: 86.41 | Test Score: 84.54
+
+Last T e:  99.82, T l:  0.0030 | Best Epoch:  43 | Best Val: 82.77 | Test Score: 85.99
+
+Last T e:  99.91, T l:  0.0025 | Best Epoch:  49 | Best Val: 83.50 | Test Score: 78.74
+
+Last T e:  99.91, T l:  0.0019 | Best Epoch:  81 | Best Val: 83.50 | Test Score: 83.57
+
+Last T e:  99.82, T l:  0.0032 | Best Epoch:  86 | Best Val: 86.41 | Test Score: 82.37
+
+Last T e:  99.88, T l:  0.0020 | Best Epoch:  59 | Best Val: 84.95 | Test Score: 80.43
+
+Last T e:  99.91, T l:  0.0026 | Best Epoch:  57 | Best Val: 82.77 | Test Score: 84.30
+
+Last T e:  99.91, T l:  0.0023 | Best Epoch:  33 | Best Val: 86.89 | Test Score: 80.43
+
+Last T e:  99.82, T l:  0.0026 | Best Epoch:  46 | Best Val: 85.44 | Test Score: 80.92
+
+Last T e:  99.91, T l:  0.0022 | Best Epoch:  86 | Best Val: 83.98 | Test Score: 86.71
+
+Last T e:  99.85, T l:  0.0029 | Best Epoch:  62 | Best Val: 81.80 | Test Score: 82.37
+
+Last T e:  99.85, T l:  0.0030 | Best Epoch:  56 | Best Val: 82.28 | Test Score: 80.92
+
+Last T e:  99.94, T l:  0.0020 | Best Epoch:  37 | Best Val: 83.98 | Test Score: 83.57
+
+Last T e:  99.88, T l:  0.0019 | Best Epoch:  62 | Best Val: 83.25 | Test Score: 85.99
+
+Last T e:  99.85, T l:  0.0028 | Best Epoch:  51 | Best Val: 84.22 | Test Score: 82.85
+
+Last T e:  99.79, T l:  0.0035 | Best Epoch:  56 | Best Val: 84.22 | Test Score: 85.02
+
+
+===============================================
+2022-08-11 11:34:42
+
+main.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 0 --batch-size 64
+
+4 gconv + 2 tlayer for one layer x 2; really short skip connection after every module, after bn, before relu
+
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  99.88, T l:  0.0023 | Best Epoch:  51 | Best Val: 85.19 | Test Score: 81.88
+
+Last T e:  99.79, T l:  0.0028 | Best Epoch:  76 | Best Val: 85.68 | Test Score: 81.64
+
+Last T e:  99.82, T l:  0.0023 | Best Epoch:  72 | Best Val: 83.50 | Test Score: 82.37
+
+Last T e:  100.00, T l:  0.0010 | Best Epoch:  65 | Best Val: 84.47 | Test Score: 84.06
+
+Last T e:  99.94, T l:  0.0015 | Best Epoch:  59 | Best Val: 87.62 | Test Score: 84.30
+
+Last T e:  99.79, T l:  0.0028 | Best Epoch:  81 | Best Val: 84.95 | Test Score: 84.78
+
+Last T e:  99.88, T l:  0.0024 | Best Epoch:  37 | Best Val: 84.22 | Test Score: 81.40
+
+Last T e:  99.88, T l:  0.0017 | Best Epoch:  71 | Best Val: 82.77 | Test Score: 83.33
+
+Last T e:  99.85, T l:  0.0028 | Best Epoch:  74 | Best Val: 85.44 | Test Score: 82.61
+
+Last T e:  99.88, T l:  0.0018 | Best Epoch:  23 | Best Val: 84.47 | Test Score: 78.99
+
+Last T e:  99.91, T l:  0.0023 | Best Epoch:  45 | Best Val: 84.22 | Test Score: 85.99
+
+Last T e:  99.91, T l:  0.0021 | Best Epoch:  61 | Best Val: 86.89 | Test Score: 81.40
+
+Last T e:  99.82, T l:  0.0024 | Best Epoch:  60 | Best Val: 85.19 | Test Score: 83.33
+
+Last T e:  99.88, T l:  0.0022 | Best Epoch:  87 | Best Val: 83.98 | Test Score: 86.23
+
+Last T e:  99.94, T l:  0.0022 | Best Epoch:  74 | Best Val: 81.07 | Test Score: 82.61
+
+Last T e:  99.85, T l:  0.0030 | Best Epoch:  40 | Best Val: 82.77 | Test Score: 80.43
+
+Last T e:  99.94, T l:  0.0016 | Best Epoch:  89 | Best Val: 84.95 | Test Score: 83.09
+
+Last T e:  99.91, T l:  0.0017 | Best Epoch:  39 | Best Val: 84.47 | Test Score: 83.82
+
+Last T e:  99.85, T l:  0.0027 | Best Epoch:  95 | Best Val: 85.19 | Test Score: 82.61
+
+Last T e:  99.85, T l:  0.0030 | Best Epoch:  35 | Best Val: 86.41 | Test Score: 85.27
+
+
+===============================================
+2022-08-11 11:34:56
+
+main.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 1 --batch-size 64
+
+4 gconv + 2 tlayer for one layer x 2; really short skip connection after every module, after bn, before relu
+
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  99.88, T l:  0.0022 | Best Epoch:  55 | Best Val: 85.19 | Test Score: 82.85
+
+Last T e:  99.82, T l:  0.0028 | Best Epoch:  51 | Best Val: 85.19 | Test Score: 82.13
+
+Last T e:  99.88, T l:  0.0022 | Best Epoch:  61 | Best Val: 83.50 | Test Score: 83.57
+
+Last T e:  100.00, T l:  0.0011 | Best Epoch:  88 | Best Val: 85.19 | Test Score: 82.85
+
+Last T e:  99.94, T l:  0.0014 | Best Epoch:  74 | Best Val: 86.89 | Test Score: 84.54
+
+Last T e:  99.76, T l:  0.0028 | Best Epoch:  81 | Best Val: 83.25 | Test Score: 84.78
+
+Last T e:  99.88, T l:  0.0024 | Best Epoch:  46 | Best Val: 84.71 | Test Score: 82.61
+
+Last T e:  99.88, T l:  0.0017 | Best Epoch:  68 | Best Val: 83.74 | Test Score: 85.02
+
+Last T e:  99.85, T l:  0.0026 | Best Epoch:  68 | Best Val: 85.92 | Test Score: 82.13
+
+Last T e:  99.88, T l:  0.0018 | Best Epoch:  33 | Best Val: 85.19 | Test Score: 79.71
+
+Last T e:  99.94, T l:  0.0023 | Best Epoch:  23 | Best Val: 82.28 | Test Score: 83.33
+
+Last T e:  99.91, T l:  0.0021 | Best Epoch:  33 | Best Val: 86.41 | Test Score: 79.47
+
+Last T e:  99.85, T l:  0.0023 | Best Epoch:  72 | Best Val: 85.44 | Test Score: 84.06
+
+Last T e:  99.88, T l:  0.0025 | Best Epoch:  48 | Best Val: 83.74 | Test Score: 84.06
+
+Last T e:  99.97, T l:  0.0022 | Best Epoch:  80 | Best Val: 82.28 | Test Score: 83.82
+
+Last T e:  99.82, T l:  0.0029 | Best Epoch:  44 | Best Val: 83.50 | Test Score: 82.61
+
+Last T e:  99.94, T l:  0.0016 | Best Epoch:  72 | Best Val: 84.71 | Test Score: 82.13
+
+Last T e:  99.94, T l:  0.0017 | Best Epoch:  47 | Best Val: 83.01 | Test Score: 85.51
+
+Last T e:  99.85, T l:  0.0026 | Best Epoch:  64 | Best Val: 85.44 | Test Score: 80.92
+
+Last T e:  99.82, T l:  0.0031 | Best Epoch:  82 | Best Val: 84.47 | Test Score: 86.23
+
+
+===============================================
+2022-12-19 05:41:59
+
+main_g.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 1 --batch-size 64
+
+info: None
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  99.85, T l:  0.0051 | Best Epoch:  46 | Best Val: 83.74 | Test Score: 81.88
+
+Last T e:  99.76, T l:  0.0062 | Best Epoch:  49 | Best Val: 82.52 | Test Score: 81.88
+
+Last T e:  99.82, T l:  0.0061 | Best Epoch:  70 | Best Val: 82.52 | Test Score: 81.88
+
+Last T e:  99.82, T l:  0.0048 | Best Epoch:  45 | Best Val: 83.74 | Test Score: 80.43
+
+Last T e:  99.91, T l:  0.0038 | Best Epoch:  50 | Best Val: 85.68 | Test Score: 81.88
+
+Last T e:  99.79, T l:  0.0052 | Best Epoch:  42 | Best Val: 82.77 | Test Score: 84.30
+
+Last T e:  99.79, T l:  0.0059 | Best Epoch:  58 | Best Val: 83.50 | Test Score: 78.74
+
+Last T e:  99.88, T l:  0.0039 | Best Epoch:  55 | Best Val: 81.07 | Test Score: 83.57
+
+Last T e:  99.79, T l:  0.0057 | Best Epoch:  69 | Best Val: 84.95 | Test Score: 81.88
+
+Last T e:  99.85, T l:  0.0051 | Best Epoch:  69 | Best Val: 84.95 | Test Score: 81.64
+
+Last T e:  99.82, T l:  0.0050 | Best Epoch:  54 | Best Val: 82.28 | Test Score: 80.68
+
+Last T e:  99.85, T l:  0.0049 | Best Epoch:  85 | Best Val: 85.68 | Test Score: 79.71
+
+Last T e:  99.79, T l:  0.0054 | Best Epoch:  59 | Best Val: 83.50 | Test Score: 81.88
+
+Last T e:  99.88, T l:  0.0052 | Best Epoch:  82 | Best Val: 84.47 | Test Score: 84.06
+
+Last T e:  99.82, T l:  0.0055 | Best Epoch:  93 | Best Val: 81.07 | Test Score: 81.40
+
+Last T e:  99.82, T l:  0.0053 | Best Epoch:  50 | Best Val: 82.04 | Test Score: 78.02
+
+Last T e:  99.85, T l:  0.0042 | Best Epoch:  85 | Best Val: 83.74 | Test Score: 83.33
+
+Last T e:  99.85, T l:  0.0042 | Best Epoch:  46 | Best Val: 81.55 | Test Score: 83.57
+
+Last T e:  99.82, T l:  0.0054 | Best Epoch:  51 | Best Val: 83.50 | Test Score: 78.99
+
+Last T e:  99.79, T l:  0.0060 | Best Epoch:  87 | Best Val: 83.50 | Test Score: 84.30
+
+
+===============================================
+2022-12-19 05:42:31
+
+main_t.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 1 --batch-size 64
+
+info: None
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  71.34, T l:  0.5555 | Best Epoch:  45 | Best Val: 69.90 | Test Score: 64.25
+
+Last T e:  70.25, T l:  0.5654 | Best Epoch:  99 | Best Val: 71.36 | Test Score: 69.32
+
+Last T e:  72.46, T l:  0.5459 | Best Epoch:  99 | Best Val: 67.48 | Test Score: 65.94
+
+Last T e:  70.04, T l:  0.5665 | Best Epoch:  82 | Best Val: 65.05 | Test Score: 62.80
+
+Last T e:  69.65, T l:  0.5669 | Best Epoch:  77 | Best Val: 73.30 | Test Score: 67.87
+
+Last T e:  72.55, T l:  0.5476 | Best Epoch:  95 | Best Val: 68.93 | Test Score: 67.87
+
+Last T e:  71.92, T l:  0.5596 | Best Epoch:  57 | Best Val: 71.84 | Test Score: 67.63
+
+Last T e:  72.19, T l:  0.5447 | Best Epoch:  83 | Best Val: 69.66 | Test Score: 66.43
+
+Last T e:  72.01, T l:  0.5551 | Best Epoch:  83 | Best Val: 67.48 | Test Score: 65.94
+
+Last T e:  72.86, T l:  0.5367 | Best Epoch:  93 | Best Val: 67.96 | Test Score: 68.60
+
+Last T e:  71.58, T l:  0.5544 | Best Epoch:  64 | Best Val: 69.42 | Test Score: 64.25
+
+Last T e:  71.22, T l:  0.5568 | Best Epoch:  78 | Best Val: 72.33 | Test Score: 65.46
+
+Last T e:  71.46, T l:  0.5512 | Best Epoch:  89 | Best Val: 68.69 | Test Score: 67.15
+
+Last T e:  70.37, T l:  0.5643 | Best Epoch:  57 | Best Val: 69.90 | Test Score: 65.94
+
+Last T e:  71.13, T l:  0.5530 | Best Epoch:  83 | Best Val: 68.20 | Test Score: 65.46
+
+Last T e:  70.49, T l:  0.5586 | Best Epoch:  68 | Best Val: 69.90 | Test Score: 65.22
+
+Last T e:  70.58, T l:  0.5596 | Best Epoch:  69 | Best Val: 71.12 | Test Score: 69.81
+
+Last T e:  70.43, T l:  0.5620 | Best Epoch:  82 | Best Val: 70.39 | Test Score: 70.77
+
+Last T e:  70.86, T l:  0.5657 | Best Epoch:  56 | Best Val: 66.02 | Test Score: 63.04
+
+Last T e:  70.19, T l:  0.5641 | Best Epoch:  88 | Best Val: 68.45 | Test Score: 66.91
+
+
+===============================================
+2022-12-19 05:41:32
+
+main_gnnt.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 0 --batch-size 64
+
+info: None
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  99.88, T l:  0.0020 | Best Epoch:  79 | Best Val: 85.68 | Test Score: 82.37
+
+Last T e:  99.82, T l:  0.0025 | Best Epoch:  64 | Best Val: 85.68 | Test Score: 84.30
+
+Last T e:  99.85, T l:  0.0019 | Best Epoch:  82 | Best Val: 84.22 | Test Score: 82.85
+
+Last T e:  100.00, T l:  0.0009 | Best Epoch:  69 | Best Val: 85.68 | Test Score: 84.30
+
+Last T e:  99.94, T l:  0.0011 | Best Epoch:  48 | Best Val: 87.14 | Test Score: 83.09
+
+Last T e:  99.85, T l:  0.0023 | Best Epoch:  78 | Best Val: 82.77 | Test Score: 84.06
+
+Last T e:  99.88, T l:  0.0019 | Best Epoch:  43 | Best Val: 84.22 | Test Score: 80.92
+
+Last T e:  99.91, T l:  0.0015 | Best Epoch:  48 | Best Val: 83.25 | Test Score: 84.54
+
+Last T e:  99.82, T l:  0.0023 | Best Epoch:  38 | Best Val: 83.98 | Test Score: 83.09
+
+Last T e:  99.91, T l:  0.0015 | Best Epoch:  39 | Best Val: 84.95 | Test Score: 79.71
+
+Last T e:  99.88, T l:  0.0023 | Best Epoch:  53 | Best Val: 83.50 | Test Score: 84.54
+
+Last T e:  99.91, T l:  0.0018 | Best Epoch:  54 | Best Val: 86.65 | Test Score: 79.95
+
+Last T e:  99.91, T l:  0.0020 | Best Epoch:  61 | Best Val: 85.44 | Test Score: 82.13
+
+Last T e:  99.88, T l:  0.0019 | Best Epoch:  20 | Best Val: 85.44 | Test Score: 80.92
+
+Last T e:  99.88, T l:  0.0019 | Best Epoch:  82 | Best Val: 81.80 | Test Score: 84.78
+
+Last T e:  99.85, T l:  0.0023 | Best Epoch:  87 | Best Val: 83.74 | Test Score: 80.19
+
+Last T e:  99.94, T l:  0.0014 | Best Epoch:  34 | Best Val: 84.71 | Test Score: 81.88
+
+Last T e:  99.94, T l:  0.0014 | Best Epoch:  47 | Best Val: 83.01 | Test Score: 85.51
+
+Last T e:  99.82, T l:  0.0024 | Best Epoch:  65 | Best Val: 85.92 | Test Score: 80.68
+
+Last T e:  99.85, T l:  0.0025 | Best Epoch:  41 | Best Val: 85.19 | Test Score: 85.99
+
+
+===============================================
+2022-12-24 16:55:03
+
+main_parallel.py --num-layers 4 --gconv-dropout 0 --between-dropout 0 --tlayer-dropout 0 --scheduler linear --warmup 10 --gconv-dim 256 --tlayer-dim 256 --num-heads 8 --device 4 --batch-size 64
+
+info: None
+dataset: NCI109
+use_val_loss: True
+epochs: 100
+scheduler: linear
+warmup: 10
+patience: 25
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+clustering: True
+masked_attention: False
+gconv_dim: 256
+tlayer_dim: 256
+gconv_dropout: 0.0
+between_dropout: 0.0
+tlayer_dropout: 0.0
+num_layers: 4
+num_heads: 8
+skip_connection: none
+seeds: 12344
+save_state: False
+
+
+Last T e:  99.61, T l:  0.0091 | Best Epoch:  97 | Best Val: 84.95 | Test Score: 83.09
+
+Last T e:  99.79, T l:  0.0065 | Best Epoch:  85 | Best Val: 86.17 | Test Score: 82.13
+
+Last T e:  99.82, T l:  0.0065 | Best Epoch:  65 | Best Val: 83.98 | Test Score: 82.61
+
+Last T e:  99.97, T l:  0.0032 | Best Epoch:  45 | Best Val: 83.01 | Test Score: 82.13
+
+Last T e:  99.85, T l:  0.0044 | Best Epoch:  25 | Best Val: 85.92 | Test Score: 82.85
+
+Last T e:  99.79, T l:  0.0075 | Best Epoch:  33 | Best Val: 83.50 | Test Score: 82.85
+
+Last T e:  99.76, T l:  0.0064 | Best Epoch:  85 | Best Val: 84.22 | Test Score: 80.43
+
+Last T e:  99.85, T l:  0.0047 | Best Epoch:  90 | Best Val: 82.52 | Test Score: 85.27
+
+Last T e:  99.82, T l:  0.0063 | Best Epoch:  70 | Best Val: 84.22 | Test Score: 82.13
+
+Last T e:  99.82, T l:  0.0060 | Best Epoch:  68 | Best Val: 86.17 | Test Score: 82.13
+
+Last T e:  99.61, T l:  0.0123 | Best Epoch:  72 | Best Val: 81.80 | Test Score: 83.33
+
+Last T e:  99.70, T l:  0.0093 | Best Epoch:  64 | Best Val: 86.89 | Test Score: 78.26
+
+Last T e:  99.82, T l:  0.0053 | Best Epoch:  41 | Best Val: 83.98 | Test Score: 84.78
+
+Last T e:  99.79, T l:  0.0071 | Best Epoch:  35 | Best Val: 84.22 | Test Score: 82.13
+
+Last T e:  99.52, T l:  0.0123 | Best Epoch:  53 | Best Val: 83.98 | Test Score: 80.19
+
+Last T e:  99.76, T l:  0.0056 | Best Epoch:  57 | Best Val: 83.98 | Test Score: 78.74
+
+Last T e:  99.82, T l:  0.0058 | Best Epoch:  69 | Best Val: 83.74 | Test Score: 81.88
+
+Last T e:  99.94, T l:  0.0042 | Best Epoch:  61 | Best Val: 82.52 | Test Score: 85.51
+
+Last T e:  99.73, T l:  0.0072 | Best Epoch:  86 | Best Val: 84.95 | Test Score: 82.37
+
+Last T e:  99.58, T l:  0.0104 | Best Epoch:  55 | Best Val: 83.50 | Test Score: 84.06

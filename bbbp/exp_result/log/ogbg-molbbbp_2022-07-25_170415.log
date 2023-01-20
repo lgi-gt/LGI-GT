@@ -1,0 +1,31 @@
+
+
+===============================================
+2022-07-25 17:04:15
+
+main.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 42
+save_state: False
+
+
+
+| Epoch    0 | Train e:  38.02, T l:  0.9659 | Val e:  30.62 , Val l: 0.7355 | Test e:  49.10 

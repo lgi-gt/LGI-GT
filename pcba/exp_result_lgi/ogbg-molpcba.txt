@@ -1,0 +1,1315 @@
+
+
+===============================================
+2022-10-21 01:20:33
+
+main_gat.py
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 0
+device: 3
+save_state: False
+
+
+Run time: 22228.615099886898
+Best Epoch: 84
+Val: 0.3075
+Test Score: 0.2994
+
+
+
+===============================================
+2022-10-21 12:38:19
+
+main_gat.py --seeds 42 --device 3
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 42
+device: 3
+save_state: False
+
+
+Run time: 21920.552298580296
+Best Epoch: 92
+Val: 0.3101
+Test Score: 0.3050
+
+
+
+===============================================
+2022-10-21 12:38:01
+
+main_gat.py --seeds 2333 --device 2
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 2333
+device: 2
+save_state: False
+
+
+Run time: 22013.12765240483
+Best Epoch: 77
+Val: 0.3132
+Test Score: 0.3014
+
+
+
+===============================================
+2022-10-21 18:43:48
+
+main_gat.py --seeds 314159 --device 3
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 314159
+device: 3
+save_state: False
+
+
+Run time: 21982.73507425096
+Best Epoch: 90
+Val: 0.3100
+Test Score: 0.2967
+
+
+
+===============================================
+2022-10-21 18:45:03
+
+main_gat.py --seeds 23333 --device 2
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 23333
+device: 2
+save_state: False
+
+
+Run time: 22070.79395471001
+Best Epoch: 92
+Val: 0.3085
+Test Score: 0.2978
+
+
+
+===============================================
+2022-10-22 00:50:20
+
+main_gat.py --seeds 271828 --device 3
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 271828
+device: 3
+save_state: False
+
+
+Run time: 21637.36322639091
+Best Epoch: 84
+Val: 0.3076
+Test Score: 0.3000
+
+
+
+===============================================
+2022-10-22 00:53:04
+
+main_gat.py --seeds 12138 --device 2
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 12138
+device: 2
+save_state: False
+
+
+Run time: 21723.306067530066
+Best Epoch: 98
+Val: 0.3122
+Test Score: 0.3028
+
+
+
+===============================================
+2022-10-22 06:51:06
+
+main_gat.py --seeds 2020 --device 3
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 2020
+device: 3
+save_state: False
+
+
+Run time: 21404.163413027767
+Best Epoch: 82
+Val: 0.3089
+Test Score: 0.2908
+
+
+
+===============================================
+2022-10-22 06:55:16
+
+main_gat.py --seeds 666 --device 2
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 666
+device: 2
+save_state: False
+
+
+Run time: 21472.999479794875
+Best Epoch: 91
+Val: 0.3131
+Test Score: 0.2991
+
+
+
+===============================================
+2022-10-22 12:47:58
+
+main_gat.py --seeds 2022 --device 3
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 2022
+device: 3
+save_state: False
+
+
+Run time: 21730.53800734412
+Best Epoch: 96
+Val: 0.3115
+Test Score: 0.2999
+
+
+
+===============================================
+2022-10-22 12:53:21
+
+main_gat.py --seeds 886 --device 2
+
+gat conv + middle linear + ln + relu + dropout
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 886
+device: 2
+save_state: False
+
+
+Run time: 21633.907434403896
+Best Epoch: 85
+Val: 0.3142
+Test Score: 0.3011
+
+
+
+===============================================
+2022-12-11 13:40:53
+
+main.py --seeds 666 --device 1
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 666
+device: 1
+save_state: False
+
+
+Run time: 20205.256599156186
+Best Epoch: 98
+Val: 0.3113
+Test Score: 0.3025
+
+
+
+===============================================
+2022-12-11 19:58:06
+
+main.py --seeds 314159 --device 3
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 314159
+device: 3
+save_state: False
+
+
+Run time: 18917.65643991204
+Best Epoch: 98
+Val: 0.3121
+Test Score: 0.3016
+
+
+
+===============================================
+2022-12-11 19:57:13
+
+main.py --seeds 42 --device 2
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 42
+device: 2
+save_state: False
+
+
+Run time: 19031.61667960696
+Best Epoch: 90
+Val: 0.3153
+Test Score: 0.3073
+
+
+
+===============================================
+2022-12-11 19:56:51
+
+main.py --seeds 23333 --device 1
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 23333
+device: 1
+save_state: False
+
+
+Run time: 19199.74474841403
+Best Epoch: 94
+Val: 0.3145
+Test Score: 0.3053
+
+
+
+===============================================
+2022-12-11 19:58:49
+
+main.py --seeds 271828 --device 0
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 271828
+device: 0
+save_state: False
+
+
+Run time: 19442.8408187842
+Best Epoch: 95
+Val: 0.3113
+Test Score: 0.3010
+
+
+
+===============================================
+2022-12-12 00:31:05
+
+main.py --seeds 2333 --device 5
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 2333
+device: 5
+save_state: False
+
+
+Run time: 19272.44196238881
+Best Epoch: 99
+Val: 0.3122
+Test Score: 0.3043
+
+
+
+
+===============================================
+2022-12-12 01:45:59
+
+main.py --seeds 2022 --device 1
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 2022
+device: 1
+save_state: False
+
+
+Run time: 18809.957521634642
+Best Epoch: 98
+Val: 0.3156
+Test Score: 0.3088
+
+
+
+===============================================
+2022-12-12 01:46:35
+
+main.py --seeds 12138 --device 3
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 12138
+device: 3
+save_state: False
+
+
+Run time: 18935.252247700933
+Best Epoch: 95
+Val: 0.3174
+Test Score: 0.3069
+
+
+
+===============================================
+2022-12-12 01:46:22
+
+main.py --seeds 886 --device 2
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 886
+device: 2
+save_state: False
+
+
+Run time: 18992.39613460563
+Best Epoch: 98
+Val: 0.3151
+Test Score: 0.3020
+
+
+
+===============================================
+2022-12-12 07:14:04
+
+main.py --seeds 2020 --device 0
+
+None
+
+baseline: GPS
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+local_attn_dropout: 0.0
+local_ffn_dropout: 0.3
+global_attn_dropout: 0.3
+global_ffn_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: none
+norm: ln
+readout: cls
+seeds: 2020
+device: 0
+save_state: False
+
+
+Run time: 18523.777436777018
+Best Epoch: 95
+Val: 0.3090
+Test Score: 0.3008
+
+
+
+===============================================
+2022-12-19 05:32:04
+
+main_transformerconv.py --seeds 2333 --device 1
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 2333
+device: 1
+save_state: False
+
+
+Run time: 21948.029833009932
+Best Epoch: 84
+Val: 0.3148
+Test Score: 0.3038
+
+
+
+===============================================
+2022-12-19 11:38:01
+
+main_transformerconv.py --seeds 23333 --device 1
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 23333
+device: 1
+save_state: False
+
+
+Run time: 21286.701765679987
+Best Epoch: 96
+Val: 0.3175
+Test Score: 0.3011
+
+
+
+
+===============================================
+2022-12-19 23:26:13
+
+main_transformerconv.py --seeds 666 --device 1
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 666
+device: 1
+save_state: False
+
+
+Run time: 20334.00256520114
+Best Epoch: 95
+Val: 0.3149
+Test Score: 0.3055
+
+
+
+===============================================
+2022-12-20 04:54:43
+
+main_transformerconv.py --seeds 42 --device 0
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 42
+device: 0
+save_state: False
+
+
+Run time: 20128.59525789111
+Best Epoch: 95
+Val: 0.3163
+Test Score: 0.3048
+
+
+
+===============================================
+2022-12-20 05:05:16
+
+main_transformerconv.py --seeds 886 --device 1
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 886
+device: 1
+save_state: False
+
+
+Run time: 19730.744433273096
+Best Epoch: 98
+Val: 0.3135
+Test Score: 0.3029
+
+
+
+===============================================
+2022-12-20 10:30:21
+
+main_transformerconv.py --seeds 314159 --device 0
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 314159
+device: 0
+save_state: False
+
+
+Run time: 20242.47131863609
+Best Epoch: 98
+Val: 0.3112
+Test Score: 0.3024
+
+
+
+===============================================
+2022-12-20 16:07:52
+
+main_transformerconv.py --seeds 271828 --device 0
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 271828
+device: 0
+save_state: False
+
+
+Run time: 19971.977641189005
+Best Epoch: 94
+Val: 0.3184
+Test Score: 0.3032
+
+
+
+===============================================
+2022-12-20 16:32:34
+
+main_transformerconv.py --device 1 --seeds 2022
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 2022
+device: 1
+save_state: False
+
+
+Run time: 19923.703692245996
+Best Epoch: 97
+Val: 0.3164
+Test Score: 0.3012
+
+
+
+
+
+===============================================
+2022-12-21 04:59:12
+
+main_transformerconv.py --device 4 --seeds 2020
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 2020
+device: 4
+save_state: False
+
+
+Run time: 19623.20608463697
+Best Epoch: 91
+Val: 0.3137
+Test Score: 0.3026
+
+
+===============================================
+2022-12-21 05:00:24
+
+main_transformerconv.py --device 1 --seeds 12138
+
+None
+
+baseline: SAT
+dataset: ogbg-molpcba
+use_val_loss: False
+use_cpu: False
+epochs: 100
+scheduler: linear
+warmup: 10
+batch_size: 256
+lr: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+clustering: False
+masked_attention: True
+gconv_dim: 384
+tlayer_dim: 384
+gat_attn_dropout: 0.0
+gconv_dropout: 0.3
+tlayer_attn_dropout: 0.3
+tlayer_dropout: 0.3
+num_layers: 5
+num_heads: 8
+skip_connection: short
+readout: cls
+seeds: 12138
+device: 1
+save_state: False
+
+
+Run time: 20074.804982400034
+Best Epoch: 96
+Val: 0.3180
+Test Score: 0.3032
+

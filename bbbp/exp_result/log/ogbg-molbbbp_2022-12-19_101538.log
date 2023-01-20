@@ -1,0 +1,45 @@
+
+
+===============================================
+2022-12-19 10:15:38
+
+main_g.py --batch-size 64 --lr 0.0001 --warmup 50 --scheduler-type linear --seeds 314159 --device 1
+
+None
+
+dataset: ogbg-molbbbp
+use_node_attr: False
+pre_transform: None
+transform: None
+clean_cache: False
+use_public_splits: True
+use_val: True
+use_val_loss: True
+same_best_epoch: False
+early_stop: False
+scheduler_type: linear
+epochs: 200
+warmup: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+seeds: 314159
+save_state: False
+transformer_dropout: 0.1
+
+
+
+| Epoch    0 | Train e:  46.18, T l:  1.3086 | Val e:  33.33 , Val l: 0.7976 | Test e:  50.46 
+| Epoch    1 | Train e:  46.76, T l:  1.1531 | Val e:  33.88 , Val l: 0.7227 | Test e:  51.00 
+| Epoch    2 | Train e:  47.87, T l:  0.8914 | Val e:  35.14 , Val l: 0.6951 | Test e:  52.36 
+| Epoch    3 | Train e:  49.32, T l:  0.6502 | Val e:  36.99 , Val l: 0.8076 | Test e:  54.21 
+| Epoch    4 | Train e:  51.01, T l:  0.5125 | Val e:  39.81 , Val l: 1.0020 | Test e:  55.88 
+| Epoch    5 | Train e:  52.85, T l:  0.4593 | Val e:  43.14 , Val l: 1.1587 | Test e:  57.40 
+| Epoch    6 | Train e:  54.69, T l:  0.4473 | Val e:  46.32 , Val l: 1.2338 | Test e:  58.29 
+| Epoch    7 | Train e:  56.84, T l:  0.4436 | Val e:  49.99 , Val l: 1.2543 | Test e:  59.30 
+| Epoch    8 | Train e:  59.72, T l:  0.4468 | Val e:  55.27 , Val l: 1.2591 | Test e:  60.00 
+| Epoch    9 | Train e:  62.68, T l:  0.4436 | Val e:  61.17 , Val l: 1.2481 | Test e:  60.53 
+| Epoch   10 | Train e:  65.45, T l:  0.4393 | Val e:  66.19 , Val l: 1.2442 | Test e:  60.51 
+| Epoch   11 | Train e:  68.13, T l:  0.4456 | Val e:  71.03 , Val l: 1.2273 | Test e:  61.78 
+| Epoch   12 | Train e:  70.01, T l:  0.4397 | Val e:  74.50 , Val l: 1.2158 | Test e:  61.92 
+| Epoch   13 | Train e:  71.72, T l:  0.4369 | Val e:  77.30 , Val l: 1.1882 | Test e:  62.45 

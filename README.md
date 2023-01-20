@@ -14,8 +14,12 @@ We categorize existing graph Transformers into 2 types:
 - **Type Ⅱ** explicitly utilizes both of the message passing GNN modules and Transformer encoder layers, such as GraphTrans, SAT and GPS.
 
 Our **LGI-GT** belongs to Type Ⅱ, consisting in an interleaving scheme to construct GTs with local operators and global operators (i.e., GConvs and TLayers, respectively). The model architecure of LGI-GT are as follows:
-<br/><img src="resources/model.png" style="width:80%; padding-left:20%" /> <br/>
-
+<!-- <br/><br/><img src="resources/model.png" style="width:80%; padding-left:10%" /> <br/> -->
+<br/>
+<div align=center>
+<img src="resources/model.png" width=80% />
+</div>
+<br/>
 LGI scheme is a general framework, where GConv can be any message passing modules, while TLayer also can be replaced by linear Transformer variants for the sake of low complexity.
 
 If we also use attention-based message passing module as the GConv, then a full-attention LGI-GT comes up. We also propose a novel attention-based GConv --- **Edge Enhanced Local Attention (EELA)**, which is more suitable for the proposed LGI-GT than the previous counterparts like GATConv and TransformerConv.
@@ -100,16 +104,31 @@ See the folder `pcba_cls_attn`, in which `state/LGI.pt` saved parameters of a tr
 >For the capacity limitation of supplementary material, we only uploaded `LGI.pt` here and exclude parameter files of GNN+Transformer as well as Parallel Transformer
 
 Two visualization examples are as follows: 
-<br/><img src="resources/main_visualization.png" style="width:80%; padding-left:20%"/>
+<!-- <br/><img src="resources/main_visualization.png" style="width:80%; padding-left:20%"/> -->
+<br/>
+<div align=center>
+<img src="resources/main_visualization.png" width=65% />
+</div>
+<br/>
 
 ## Appendix
 
 ### Different Combinations of $n$ and $m$
 
 To explore the influence of different combinations of $n$ and $m$ on LGI-GT, we further performed a study on CLUSTER and ogbg-moltox21, and results are concluded in folders `cluster/exp_result_nm` and `tox21/exp_result_nm`, respectively.
-<br/><img src="resources/nm.png" style="width:66%; padding-left:22%"/>
+<!-- <br/><img src="resources/nm.png" style="width:66%; padding-left:22%"/> -->
+<br/>
+<div align=center>
+<img src="resources/nm.png" width=60% />
+</div>
+<br/>
 
 ### Effectiveness of the Skip Propagating Method for the $[\mathtt{CLS}]$ Token
 
 We compare the performance of LGI-GT models with different readout methods on ogbg-molpcba and ogbg-code2. The results are in folder `skip_cls`.
-<br/><img src="resources/cls.png" style="width:40%; padding-left:20%"/>
+<!-- <br/><img src="resources/cls.png" style="width:40%; padding-left:20%"/> -->
+<br/>
+<div align=center>
+<img src="resources/cls.png" width=40% />
+</div>
+<br/>

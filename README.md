@@ -13,7 +13,7 @@ We categorize existing graph Transformers into 2 types:
 - **Type Ⅰ** combines Transformer encoder with connectivity information and edge features via specially tailored attention computing formulas or graph-related positional encodings (PE/SE). This class of GTs can be regarded as independent of GNNs, e.g., Graphormer, SAN, UniMP and GRPE.
 - **Type Ⅱ** explicitly utilizes both of the message passing GNN modules and Transformer encoder layers, such as GraphTrans, SAT and GPS.
 
-Our **LGI-GT** belongs to Type Ⅱ, consisting in an interleaving scheme to construct GTs with local operators and global operators (i.e., GConvs and TLayers, respectively). The model architecure of LGI-GT are as follows:<br/><br/><img src="resources/model.png" style="width:80%; padding-left:10%" /> <br/>
+Our **LGI-GT** belongs to Type Ⅱ, consisting in an interleaving scheme to construct GTs with local operators and global operators (i.e., GConvs and TLayers, respectively). The model architecure of LGI-GT are as follows:<br/><br/><img src="resources/model.png" style="width:80%; padding-left:20%" /> <br/>
 
 LGI scheme is a general framework, where GConv can be any message passing modules, while TLayer also can be replaced by linear Transformer variants for the sake of low complexity.
 
@@ -62,7 +62,7 @@ python main_transformerconv.py # with TransformerConv as GConv
 
 # ogbg-code2
 cd code2
-python main_clip.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --clipping_mode tail
+python main_segment.py --gconv-dim 256 --tlayer-dim 256 --gconv-dropout 0 --attn-dropout 0 --tlayer-dropout 0.4 --scheduler linear --warmup 5 --lr 0.0002 --readout cls --segment_pooling sum
 ```
 
 To test with 10 different seeds on each dataset, please run the `.sh` files in the corresponding folders.
@@ -98,7 +98,7 @@ We increased the depth from 6 to 20, and showed the performance w.r.t. the model
 See the folder `pcba_cls_attn`, in which `state/LGI.pt` saved parameters of a trained LGI-GT and it is loaded in `visualize.ipynb` to get attention scores for graphs. The code of drawing procedure is in module `visualize_draw.py` which is called by `visualize.ipynb`.
 >For the capacity limitation of supplementary material, we only uploaded `LGI.pt` here and exclude parameter files of GNN+Transformer as well as Parallel Transformer
 
-Two visualization examples are as follows: <br/><br/><img src="resources/main_visualization.png" style="width:80%; padding-left:10%"/>
+Two visualization examples are as follows: <br/><br/><img src="resources/main_visualization.png" style="width:80%; padding-left:20%"/>
 
 ## Appendix
 
@@ -110,4 +110,4 @@ To explore the influence of different combinations of $n$ and $m$ on LGI-GT, we 
 ### Effectiveness of the Skip Propagating Method for the $[\mathtt{CLS}]$ Token
 
 We compare the performance of LGI-GT models with different readout methods on ogbg-molpcba and ogbg-code2. The results are in folder `skip_cls`.
-<br/><img src="resources/cls.png" style="width:40%; padding-left:30%" />
+<br/><img src="resources/cls.png" style="width:40%; padding-left:40%" />
